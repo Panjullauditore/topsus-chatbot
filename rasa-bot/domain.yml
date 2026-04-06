@@ -1,0 +1,226 @@
+version: "3.1"
+
+intents:
+  - pembuka
+  - penutup
+  - terima_kasih
+  - tanya_cuti_akademik
+  - tanya_legalisir
+  - tanya_proposal_organisasi
+  - tanya_rekomendasi_beasiswa
+  - tanya_irs
+  - tanya_izin_aktif_setelah_cuti
+  - tanya_izin_terlambat_bayar_ukt
+  - tanya_link_form
+  - tanya_waktu_proses
+  - tanya_layanan_akademik
+  - tanya_kontak
+  - tanya_jadwal
+  - nlu_fallback
+  - ask_detail
+
+entities:
+  - layanan
+  - dokumen
+
+slots:
+  layanan:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: layanan
+  last_answer_source:
+    type: text
+    influence_conversation: false
+    initial_value: null
+    mappings:
+      - type: from_text
+
+  last_answer_distance:
+    type: any
+    influence_conversation: false
+    initial_value: null
+    mappings:
+      - type: from_text
+
+  last_normalized_query:
+    type: text
+    influence_conversation: false
+    initial_value: null
+    mappings:
+      - type: from_text
+  last_is_match:
+    type: text
+    influence_conversation: false
+    initial_value: null
+    mappings:
+      - type: from_text
+
+actions:
+  - action_smart_answer
+
+
+responses:
+  # ——— Sapaan & penutup ramah ———
+  utter_pembuka:
+    - text: "Hai! 👋 Saya chatbot layanan akademik FSM. Ada yang bisa kubantu hari ini?"
+    - text: "Selamat datang! Aku siap bantu info layanan akademik 😊."
+    - text: "Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan."
+
+  utter_penutup:
+    - text: "Sampai jumpa! Semoga informasinya membantu ya. 🙌"
+    - text: "Makasih ya! Jangan ragu tanya lagi kalau perlu."
+    - text: "Sampai ketemu lagi—semoga urusan akademiknya lancar!"
+
+  utter_terima_kasih:
+    - text: "Sama-sama! Senang bisa bantu. Ada lagi yang bisa kubantu?"
+    - text: "Dengan senang hati! Kalau ada pertanyaan lain, tinggal tanya ya. 🙂"
+    - text: "Terima kasih kembali! Butuh info lain?"
+
+  # ——— Default & error ———
+  # utter_default:
+  #   - text: "Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂"
+  # utter_error_generic:
+  #   - text: "Aduh, lagi ada kendala teknis nih 😅. Coba ulang sebentar lagi ya."
+  # utter_fallback:
+  #   - text: "Baik, aku coba carikan jawabannya dari dokumen resmi ya…"
+
+  #dari file faq
+  utter_jawab_cuti_akademik:
+    - text: |
+        Prosedur Cuti Akademik (maks. 3 hari kerja):
+        1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+        2) Persetujuan Ketua Prodi
+        3) Disposisi Dekan → Subbag Akademik
+        4) Subbag cek kelengkapan & proses
+        5) Tanda tangan Dekan
+        6) Penomoran oleh Subbag SDM
+        7) Ambil Surat Izin Dekan di loket akademik
+  utter_jawab_legalisir:
+    - text: |
+        Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+        1) Serahkan fotokopi + asli ke Subbag Akademik
+        2) Petugas cek keabsahan & cap
+        3) Supervisor paraf
+        4) Dekan/Wadek tanda tangan
+        5) Stempel fakultas
+        6) Ambil legalisir (bawa asli & tanda tangan buku)
+  utter_jawab_proposal_organisasi:
+    - text: |
+        Pengajuan Proposal Ormawa (maks. 3 hari kerja):
+        1) Serahkan proposal ke petugas kemahasiswaan & Supervisor (registrasi/ruang)
+        2) Supervisor verifikasi & paraf
+        3) Wadek evaluasi substansi
+        4) Pengesahan Wadek
+        5) Ambil proposal yang disetujui
+  utter_jawab_rekomendasi_beasiswa:
+    - text: |
+        Rekomendasi Beasiswa (±3 hari 45 menit):
+        1) Isi formulir rekomendasi → ke Subbag Akademik
+        2) BAK teliti & verifikasi
+        3) BAK beri paraf & nomor surat
+        4) Wadek tanda tangan
+        5) Ambil surat di BAK (dicatat bukti pengambilan)
+  utter_jawab_irs:
+    - text: |
+        Pengisian IRS (Isian Rencana Studi):
+        1) Bayar UKT (BNI/Mandiri/BTN/BRI)
+        2) Her-registrasi online via SIAP
+        3) Isi/perbaiki/cetak IRS sementara via SIAP
+        4) Konsultasi PA (mata kuliah)
+        5) PA menyetujui IRS di SIAP
+        6) Cek IRS final di SIAP
+  utter_jawab_izin_aktif_kuliah_setelah_cuti:
+    - text: |
+        Izin Aktif Kuliah Setelah Cuti:
+        1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+        2) Registrasi online (SSO)
+        3) Status aktif sebagai Peserta Kuliah
+  utter_jawab_izin_terlambat_bayar_ukt:
+    - text: |
+        Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+        1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+        2) TTD Dosen Wali + persetujuan Kaprodi
+        3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+        4) Proses oleh Wadek SDM; ditandatangani
+        5) Subbag SDM memproses surat
+        6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+        7) Bendahara membuat kanal pembayaran
+        8) Lakukan pembayaran UKT
+  utter_jawab_link_form:
+    - text: |
+        Link Formulir:
+        • Form Cuti Akademik:
+          https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+        • Form Rekomendasi Beasiswa:
+          https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+        • Form Keterlambatan Pembayaran UKT:
+          https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+  utter_jawab_waktu_proses:
+    - text: |
+        SLA Layanan Akademik:
+        • Cuti Akademik — maks. 3 hari kerja
+        • Legalisir — maks. 3 hari kerja
+        • Proposal Ormawa — maks. 3 hari kerja
+        • Rekomendasi Beasiswa — ±3 hari 45 menit
+        • Keterlambatan UKT — maks. 3 hari kerja
+        • Pengisian IRS — maks. 3 hari kerja
+        • Aktif Setelah Cuti — ±15 menit
+  utter_layanan_akademik:
+    - text: |
+        Layanan Akademik yang Tersedia:
+        • Cuti Akademik
+        • Legalisir Ijazah & Transkrip
+        • Proposal Kegiatan Organisasi
+        • Rekomendasi Beasiswa
+        • Pengisian IRS (Isian Rencana Studi)
+        • Izin Aktif Setelah Cuti
+        • Izin Keterlambatan Bayar UKT
+  utter_kontak:
+    - text: |
+        Kontak Layanan Akademik FSM:
+        • Subbag Akademik & Kemahasiswaan
+        • Telp: (024) 747 4754
+        • Email: akademikfsm@live.undip.ac.id
+        Jam layanan: Senin–Jumat 08.00–16.00 WIB
+  utter_jadwal:
+    - text: |
+        Jadwal Layanan:
+        • Jam Operasional: Senin–Jumat, 08.00–16.00 WIB
+        • Lokasi: Gedung Acintya Prasada Lt.1, FSM UNDIP
+        • Hari Libur: Mengikuti kalender akademik UNDIP
+
+  utter_diluar_scope:
+    - text: |
+        Maaf, aku belum bisa menjawab pertanyaan tersebut. Silakan hubungi bagian terkait:
+        📧 Layanan Akademik: akademikfsm@live.undip.ac.id
+        📧 Layanan Mawa: mawafsm@live.undip.ac.id
+        📍 Gedung Acintya Prasada Lt.1, FSM UNDIP.
+        📞 Telp: 024-7474754
+
+  # ——— Alias FAQ (duplikasi kunci 'faq_*' agar action yang pakai faq_* tetap aman) ———
+  utter_faq_cuti:
+    - text: "{utter_jawab_cuti_akademik}"
+  utter_faq_khs:
+    - text: "KHS muncul setelah input nilai final. Akses via SIAP → Nilai. Perlu cara unduh PDF?"
+  utter_faq_krs:
+    - text: "{utter_jawab_irs}"
+  utter_faq_ukt:
+    - text: "Pembayaran UKT via bank mitra; periode aktif mengikuti pengumuman. Perlu rincian programmu?"
+  utter_faq_yudisium:
+    - text: "Yudisium terdekat mengikuti kalender akademik. Perlu daftar berkas & tenggat?"
+  utter_faq_skripsi:
+    - text: "Alur skripsi: proposal → bimbingan → sidang. Perlu checklist & syarat daftar?"
+  utter_faq_magang:
+    - text: "Magang/MBKM daftar via portal kampus/MBKM. Perlu template surat pengantar?"
+  utter_faq_kontak:
+    - text: "{utter_kontak}"
+  utter_faq_kalender:
+    - text: "Kalender akademik terbaru ada di laman FSM. Mau diringkas periode KRS/UTS/UAS?"
+  utter_faq_surat_aktif:
+    - text: "SK Aktif Kuliah diajukan via portal surat. Perlu syarat & estimasi proses?"
+
+session_config:
+  session_expiration_time: 180
+  carry_over_slots_to_new_session: true

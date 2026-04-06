@@ -1,0 +1,85 @@
+version: "3.1"
+
+stories:
+- story: Cuti akademik process
+  steps:
+  - intent: tanya_cuti_akademik
+  - action: action_smart_answer
+  - intent: tanya_link_form
+  - action: action_smart_answer
+
+- story: Legalisir process
+  steps:
+  - intent: tanya_legalisir
+  - action: action_smart_answer
+  - intent: tanya_waktu_proses
+  - action: action_smart_answer
+
+- story: Proposal organisasi process
+  steps:
+  - intent: tanya_proposal_organisasi
+  - action: action_smart_answer
+
+- story: Beasiswa process
+  steps:
+  - intent: tanya_rekomendasi_beasiswa
+  - action: action_smart_answer
+  - intent: tanya_link_form
+  - action: action_smart_answer
+
+- story: IRS process
+  steps:
+  - intent: tanya_irs
+  - action: action_smart_answer
+
+- story: Aktif setelah cuti process
+  steps:
+  - intent: tanya_izin_aktif_setelah_cuti
+  - action: action_smart_answer
+
+- story: Keterlambatan UKT process
+  steps:
+  - intent: tanya_izin_terlambat_bayar_ukt
+  - action: action_smart_answer
+  - intent: tanya_link_form
+  - action: action_smart_answer
+
+- story: Greeting and asking about services
+  steps:
+  - intent: pembuka
+  - action: utter_pembuka
+  - intent: tanya_layanan_akademik
+  - action: action_smart_answer
+  - intent: tanya_cuti_akademik
+  - action: action_smart_answer
+
+- story: Multiple questions about academic services
+  steps:
+  - intent: tanya_irs
+  - action: action_smart_answer
+  - intent: tanya_legalisir
+  - action: action_smart_answer
+  - intent: terima_kasih
+  - action: utter_terima_kasih
+
+- story: Information about contact and schedule
+  steps:
+  - intent: tanya_kontak
+  - action: action_smart_answer
+  - intent: tanya_jadwal
+  - action: action_smart_answer
+
+- story: Complete service inquiry
+  steps:
+  - intent: pembuka
+  - action: utter_pembuka
+  - intent: tanya_layanan_akademik
+  - action: action_smart_answer
+  - intent: tanya_cuti_akademik
+  - action: action_smart_answer
+  - intent: tanya_waktu_proses
+  - action: action_smart_answer
+  - intent: terima_kasih
+  - action: utter_terima_kasih
+  - intent: penutup
+  - action: utter_penutup

@@ -1,0 +1,82 @@
+version: "3.1"
+
+rules:
+  - rule: Sambut salam
+    steps:
+      - intent: pembuka
+      - action: utter_pembuka
+
+  - rule: Ucapkan sampai jumpa
+    steps:
+      - intent: penutup
+      - action: utter_penutup
+
+  - rule: Ucapkan terima kasih
+    steps:
+      - intent: terima_kasih
+      - action: utter_terima_kasih
+
+  - rule: Respon pertanyaan cuti akademik
+    steps:
+      - intent: tanya_cuti_akademik
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan legalisir
+    steps:
+      - intent: tanya_legalisir
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan proposal organisasi
+    steps:
+      - intent: tanya_proposal_organisasi
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan rekomendasi beasiswa
+    steps:
+      - intent: tanya_rekomendasi_beasiswa
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan IRS
+    steps:
+      - intent: tanya_irs
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan izin aktif setelah cuti
+    steps:
+      - intent: tanya_izin_aktif_setelah_cuti
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan izin terlambat membayar UKT
+    steps:
+      - intent: tanya_izin_terlambat_bayar_ukt
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan link formulir
+    steps:
+      - intent: tanya_link_form
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan lama waktu proses
+    steps:
+      - intent: tanya_waktu_proses
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan layanan akademik
+    steps:
+      - intent: tanya_layanan_akademik
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan kontak
+    steps:
+      - intent: tanya_kontak
+      - action: action_smart_answer
+
+  - rule: Respon pertanyaan jadwal
+    steps:
+      - intent: tanya_jadwal
+      - action: action_smart_answer
+
+  - rule: gunakan RAG saat NLU fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_smart_answer

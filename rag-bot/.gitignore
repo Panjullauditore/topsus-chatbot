@@ -1,0 +1,91 @@
+# ===============================
+# 🌱 ENVIRONMENT & SECRETS
+# ===============================
+.env
+.env.local
+.env.*
+.venv/
+venv/
+ENV/
+
+# ===============================
+# 🧠 PYTHON / RAG FILES
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# Vector DB & embedding checkpoints
+chroma/
+vectorstore/
+indo_finetuned_embedding/
+datasets/
+checkpoints/
+models/
+
+# Local data outputs
+results.csv
+*.csv
+*.jsonl
+*.json
+*.tsv
+*.parquet
+*.db
+*.sqlite3
+
+# Training / evaluation outputs
+*.pth
+*.ckpt
+*.h5
+*.pt
+
+# ===============================
+# 📦 NODE / FRONTEND
+# ===============================
+node_modules/
+.next/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+*.env.local
+
+# ===============================
+# 💬 RASA
+# ===============================
+.rasa/
+.rasa_cache/
+rasa-bot/.rasa/
+rasa-bot/results/
+rasa-bot/events.db
+rasa-bot/response_times_detailed.csv
+rasa-bot/models/*.tar.gz
+rasa-bot/models/*.gz
+rasa-bot/logs/
+rasa-bot/tests/results/
+rasa-bot/.pytest_cache/
+rasa-bot/.mypy_cache/
+
+# ===============================
+# 💾 OS & EDITOR
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__MACOSX/
+
+# ===============================
+# 🔧 BUILD / MISC CACHE
+# ===============================
+*.egg-info/
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/

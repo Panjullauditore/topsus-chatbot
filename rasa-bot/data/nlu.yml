@@ -1,0 +1,207 @@
+version: "3.1"
+nlu:
+- intent: pembuka
+  examples: |
+    - hai
+    - halo
+    - yow
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+    - test
+    - hai, apa kabar?
+    - halo, ada yang bisa dibantu?
+    - saya mau tanya dong
+    - permisi
+
+- intent: penutup
+  examples: |
+    - sampai jumpa
+    - bye
+    - dadah
+    - sampai nanti
+    - oke
+    - cukup
+
+- intent: terima_kasih
+  examples: |
+    - terima kasih
+    - makasih
+    - thanks
+    - thank you
+    - terima kasih banyak
+    - terima kasih banyak
+    - makasih ya
+    - makasih, bantuannya sudah cukup
+    - makasih, sudah cukup
+    - makasih, itu saja dulu
+    - makasih, itu saja
+    - okedeh, makasih
+
+- intent: tanya_cuti_akademik
+  examples: |
+    - bagaimana cara mengajukan cuti akademik?
+    - jelaskan bagaimana prosedur cuti akademik!
+    - gimana cara saya dapat cuti kuliah?
+    - bagaimana izin cuti kuliah?
+    - bagaimaan cara cuti semester?
+    - bagaimana SOP cuti akademik?
+    - cara cuti kuliah
+    - prosedur cuti
+
+- intent: tanya_legalisir
+  examples: |
+    - bagaimana cara legalisir ijazah?
+    - jelaskan prosedur legalisir transkrip!
+    - bagaimana legalisir dokumen akademik?
+    - bagaimana cara legalisir nilai?
+    - bagaimana SOP legalisir ijazah dan transkrip?
+    - cara legalisir dokumen
+    - prosedur pengesahan ijazah
+
+- intent: tanya_proposal_organisasi
+  examples: |
+    - bagaimana cara mengajukan proposal kegiatan organisasi?
+    - jelaskan SOP pengajuan proposal organisasi mahasiswa!
+    - bagaimana prosedur proposal kegiatan kemahasiswaan?
+    - cara ajukan proposal organisasi
+    - prosedur pengajuan acara kemahasiswaan
+
+- intent: tanya_rekomendasi_beasiswa
+  examples: |
+    - bagaimana cara mengajukan rekomendasi beasiswa?
+    - jelaskan SOP mengajukan rekomendasi beasiswa!
+    - bagaimana SOP rekomendasi beasiswa?
+    - bagaimana prosedur pengajuan beasiswa?
+    - cara minta surat rekomendasi beasiswa
+    - prosedur pengajuan beasiswa
+
+- intent: tanya_irs
+  examples: |
+    - bagaimana cara mengisi IRS?
+    - jelaskan prosedur pengisian IRS!
+    - bagaimana SOP pengisian isian rencana studi?
+    - bagaimana mengisi KRS?
+    - apa tahapan pengisian rencana studi semester?
+    - cara isi KRS
+    - prosedur pengisian rencana studi
+
+- intent: tanya_izin_aktif_setelah_cuti
+  examples: |
+    - bagaimana cara aktif kuliah setelah cuti?
+    - jelaskan prosedur izin aktif setelah cuti!
+    - bagaimana kembali aktif setelah cuti?
+    - bagaimana SOP izin aktif setelah cuti?
+    - bagaimana registrasi setelah cuti akademik?
+    - cara aktif kuliah lagi setelah cuti
+    - prosedur kembali aktif
+
+- intent: tanya_izin_terlambat_bayar_ukt
+  examples: |
+    - bagaimana cara mengajukan izin keterlambatan bayar UKT?
+    - jelaskan prosedur keterlambatan pembayaran UKT!
+    - bagaimana SOP izin keterlambatan UKT?
+    - bagaimana mengajukan penundaan bayar ukt
+    - cara minta izin telat bayar ukt
+    - prosedur keterlambatan bayar uang kuliah
+
+- intent: tanya_link_form
+  examples: |
+    - dimana link download form cuti akademik
+    - dimana link download form rekomendasi beasiswa?
+    - dimana link download form keterlambatan UKT?
+    - dimana link form pengajuan?
+    - dimana link download formulir?
+    - link form cuti
+    - download form dimana
+
+- intent: tanya_waktu_proses
+  examples: |
+    - berapa lama prosesnya?
+    - waktu pemrosesan
+    - kapan selesainya?
+    - berapa hari proses pengajuan?
+    - maksimal waktu proses
+    - berapa lama selesai?
+    - cepat tidak prosesnya?
+
+- intent: tanya_layanan_akademik
+  examples: |
+    - layanan apa saja yang tersedia?
+    - apa saja yang bisa dibantu?
+    - fitur apa yang ada?
+    - bantuan apa yang disediakan?
+    - menu layanan akademik
+    - apa saja layanan yang ada?
+
+- intent: tanya_kontak
+  examples: |
+    - nomor telepon akademik
+    - kontak layanan mahasiswa
+    - email akademik fsm
+    - telepon subbag akademik
+    - kontak bantuan akademik
+    - nomor hubungi akademik
+
+- intent: tanya_jadwal
+  examples: |
+    - jam berapa buka layanan?
+    - jadwal operasional akademik
+    - kapan buka layanan?
+    - jam kerja subbag akademik
+    - hari apa saja buka?
+    - jadwal pelayanan
+
+- intent: nlu_fallback
+  examples: |
+    - apa kabar?
+    - bagaimana cuaca hari ini?
+    - siapa nama kamu?
+    - kamu siapa?
+    - ceritakan tentang dirimu
+    - apa hobimu?
+    - kamu tinggal dimana?
+    - umur berapa?
+    - kamu robot atau manusia?
+    - bisa bahasa inggris?
+    - ceritakan lelucon
+    - apa makanan favoritmu?
+    - siapa presiden indonesia?
+    - berita hari ini
+    - rekomendasi film
+    - cara masak nasi goreng
+    - tips belajar
+    - olahraga apa yang bagus?
+    - rekomendasi tempat wisata
+    - bagaimana cara investasi?
+    
+- synonym: cuti
+  examples: |
+    - cuti akademik
+    - izin cuti
+    - cuti semester
+
+- synonym: legalisir
+  examples: |
+    - legalisir ijazah
+    - legalisir transkrip
+    - pengesahan dokumen
+
+- synonym: proposal
+  examples: |
+    - proposal kegiatan
+    - proposal organisasi
+    - pengajuan acara
+
+- synonym: irs
+  examples: |
+    - isian rencana studi
+    - krs
+    - rencana studi
+    - kartu rencana studi
+
+- synonym: ukt
+  examples: |
+    - uang kuliah tunggal
+    - biaya pendidikan
+    - pembayaran ukt

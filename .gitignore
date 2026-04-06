@@ -1,0 +1,6 @@
+# Ignore node dependencies
+node_modules/
+
+# (optional) kalau kamu juga mau abaikan file log dan env
+*.log
+.env

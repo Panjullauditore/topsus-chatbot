@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache & temp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+
+# Temporary config / channel secrets
+credentials.local.yml
+*.secret
+*.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS & misc
+Thumbs.db
+ehthumbs.db
+desktop.ini

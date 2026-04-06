@@ -1,0 +1,20 @@
+{
+  "name": "simabot-orchestrator",
+  "private": true,
+  "scripts": {
+    "dev:all": "concurrently -n BACKEND,RAG,RASA,ACTIONS,FRONTEND -c yellow,magenta,cyan,blue,green \"npm run dev:backend\" \"npm run dev:rag\" \"npm run dev:rasa\" \"npm run dev:actions\" \"npm run dev:frontend\"",
+
+    "dev:backend":  "pushd backend && call .venv\\Scripts\\activate && python -m uvicorn app.main:app --reload --port 8000 && popd",
+    "dev:rag":      "pushd rag-bot && call .venv\\Scripts\\activate && uvicorn api:app --reload --port 8001 && popd",
+
+    "dev:rasa": "pushd rasa-bot && call .venv\\Scripts\\activate && chcp 65001 >NUL && set PYTHONIOENCODING=utf-8 && set RASA_TELEMETRY_DISABLED=1 && set SQLALCHEMY_SILENCE_UBER_WARNING=1 && set TF_CPP_MIN_LOG_LEVEL=2 && rasa run --enable-api --cors \"*\" --response-timeout 120 --port 5005 --debug && popd",
+    
+    "dev:actions": "pushd rasa-bot && call .venv\\Scripts\\activate && chcp 65001 >NUL && set PYTHONIOENCODING=utf-8 && rasa run actions --port 5055 --debug && popd",
+    
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "wait-on": "^8.0.0"
+  }
+}

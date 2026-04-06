@@ -1,0 +1,2560 @@
+timestamp,conversation_id,user_message,intent,confidence,bot_response,total_response_time_ms,coverage
+2025-09-29T17:42:15.259743,33f7b11bcc7a4baeaae53be9505c228c,haii,pembuka,0.9998459815979004,Hai! Silakan tanyakan tentang layanan akademik yang Anda butuhkan.,329.00,1
+2025-09-29T17:43:13.509615,33f7b11bcc7a4baeaae53be9505c228c,nina,nlu_fallback,0.9406256675720215,"Maaf, saya belum dapat membantu anda untuk pertanyaan tersebut.",15.00,0
+2025-09-29T17:43:50.942278,33f7b11bcc7a4baeaae53be9505c228c,Apa jadwal layanan akademik fsm?,nlu_fallback,0.7,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",15.00,0
+2025-09-29T17:44:49.685729,33f7b11bcc7a4baeaae53be9505c228c,kapan akademik fsm buka layanan?,tanya_jadwal,0.887120246887207,"Informasi Jadwal Layanan:
+
+Jam Operasional: Senin - Jumat, 08.00 - 16.00 WIB
+Lokasi: Gedung Acintya Prasada Lt. 1, Fakultas Sains dan Matematika, UNDIP
+Hari Libur: Mengikuti kalender akademik UNDIP
+",18.01,1
+2025-10-07T21:32:00.855567,thia,halo,pembuka,0.9997606873512268,Halo! Saya chatbot layanan akademik FSM. Ada yang bisa saya bantu hari ini?,357.12,1
+2025-10-07T21:33:01.401359,thia,boleh beri tau kontak layanan akademik fsm?,tanya_kontak,0.9915273785591125,"Kontak Layanan Akademik FSM:
+
+Subbag Akademik dan Kemahasiswaan
+Telepon: (024) 747 4754
+Email: akademikfsm@live.undip.ac.id
+",8.64,1
+2025-10-07T21:36:21.606221,thia,boleh beri tau kontak layanan akademik fsm?,tanya_kontak,0.9915273785591125,"Kontak Layanan Akademik FSM:
+
+Subbag Akademik dan Kemahasiswaan
+Telepon: (024) 747 4754
+Email: akademikfsm@live.undip.ac.id
+",8.68,1
+2025-10-08T09:18:20.712803,web-user,halo,pembuka,0.9997606873512268,Halo! Saya chatbot layanan akademik FSM. Ada yang bisa saya bantu hari ini?,586.67,1
+2025-10-08T09:48:00.480773,web-user,halo,pembuka,0.9997606873512268,Halo! Saya chatbot layanan akademik FSM. Ada yang bisa saya bantu hari ini?,565.04,1
+2025-10-08T09:48:17.472711,web-user,info prosedur layanan legalisir ijazah,tanya_legalisir,0.9970507621765137,"Prosedur Legalisir Ijazah dan Transkrip (Maksimal 3 hari kerja):
+
+1. Serahkan fotokopi ijazah/transkrip/sertifikat beserta aslinya ke Subbag Akademik
+2. Petugas memeriksa keabsahan dan memberikan cap
+3. Supervisor memeriksa dan memberi paraf
+4. Dekan/Wakil Dekan menandatangani
+5. Petugas memberikan stempel fakultas
+6. Ambil legalisir dengan membawa aslinya dan tanda tangan di buku pengambilan
+",15.98,1
+2025-10-08T09:52:44.699085,web-user,info cuti akademik,tanya_cuti_akademik,0.9828011989593506,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",16.10,1
+2025-10-08T09:54:25.921155,web-user,kalo soal info beasiswa itu ngurusnya dimana ya,nlu_fallback,0.7,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",15.70,0
+2025-10-08T09:54:40.275579,web-user,surat rekomendasi beasiswa bagaimana ya cara mengajukannya,tanya_rekomendasi_beasiswa,0.9930167198181152,"Prosedur Pengajuan Rekomendasi Beasiswa (Maksimal 3 hari 45 menit):
+
+1. Download dan isi formulir Surat Rekomendasi Beasiswa ke Subbag Akademik
+2. BAK Fakultas meneliti dan memverifikasi
+3. BAK memberikan paraf dan nomor surat
+4. Wakil Dekan menandatangani
+5. Ambil surat di BAK Fakultas dan catat bukti pengambilan
+",24.10,1
+2025-10-08T09:55:07.132393,web-user,kalender akademik,nlu_fallback,0.7,"Maaf, saya belum dapat membantu anda untuk pertanyaan tersebut.",17.78,0
+2025-10-08T09:55:18.130506,web-user,dokumen pengajuan cuti bisa akses dimana ya,nlu_fallback,0.7,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",12.68,0
+2025-10-08T09:55:36.619313,web-user,form cuti akademik,tanya_link_form,0.8866077065467834,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",16.07,1
+2025-10-08T09:56:01.702202,web-user,form cuti akademik,tanya_link_form,0.8866077065467834,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",20.60,1
+2025-10-08T10:09:44.997899,web-user,formulir cuti,tanya_link_form,0.9231740236282349,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",581.57,1
+2025-10-08T10:09:51.032669,web-user,formulir cuti,tanya_link_form,0.9231740236282349,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",22.05,1
+2025-10-08T10:11:28.086017,web-user,formulir cuti,tanya_link_form,0.9231740236282349,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",18.32,1
+2025-10-08T10:11:30.574272,web-user,test,pembuka,0.9998238682746887,Hai! Silakan tanyakan tentang layanan akademik yang Anda butuhkan.,23.59,1
+2025-10-08T10:15:59.612110,web-user,prosedur formulir legalisir ijazah,tanya_legalisir,0.9959386587142944,"Prosedur Legalisir Ijazah dan Transkrip (Maksimal 3 hari kerja):
+
+1. Serahkan fotokopi ijazah/transkrip/sertifikat beserta aslinya ke Subbag Akademik
+2. Petugas memeriksa keabsahan dan memberikan cap
+3. Supervisor memeriksa dan memberi paraf
+4. Dekan/Wakil Dekan menandatangani
+5. Petugas memberikan stempel fakultas
+6. Ambil legalisir dengan membawa aslinya dan tanda tangan di buku pengambilan
+",20.92,1
+2025-10-08T10:16:11.100366,web-user,prosedur formulir cuti akademik,nlu_fallback,0.7,"Saya hanya terbatas pada informasi yang disediakan. Untuk pertanyaan lain, silakan hubungi Subbag Akademik langsung.",23.71,0
+2025-10-08T10:16:22.888058,web-user,dimana bisa dapat form cuti akademik,tanya_link_form,0.7544781565666199,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",19.13,1
+2025-10-08T10:18:09.104879,web-user,bagaimana cara mengajukan izin keterlambatan pembayaran UKT,tanya_izin_terlambat_bayar_ukt,0.9958826303482056,"Prosedur Izin Keterlambatan Pembayaran UKT (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Permohonan Keterlambatan UKT dengan lampiran
+2. Minta tanda tangan dosen wali dan persetujuan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Supervisor Sumber Daya
+4. Supervisor memeriksa kelengkapan dan memberikan paraf
+5. Wakil Dekan Sumber Daya memproses surat permohonan
+6. Wakil Dekan Sumber Daya menandatangani surat
+7. Subbag Sumber Daya memproses surat
+8. Bawa surat ke Wakil Rektor II melalui Manajer Akademik
+9. Wakil Rektor II mendisposisikan ke Direktorat Keuangan
+10. Bendahara membuat sistem pembayaran
+11. Bayar UKT ke bank
+",16.72,1
+2025-10-08T10:18:35.539753,web-user,layanan akademik apa saja yang tersedia di FSM,tanya_layanan_akademik,0.9949668049812317,"Layanan Akademik yang Tersedia:
+
+Cuti Akademik
+Legalisir Ijazah & Transkrip
+Proposal Kegiatan Organisasi
+Rekomendasi Beasiswa
+Pengisian IRS (Isian Rencana Studi)
+Izin Aktif Setelah Cuti
+Izin Keterlambatan Bayar UKT
+
+Silakan pilih layanan yang ingin Anda tanyakan!
+",20.59,1
+2025-10-08T10:18:56.706645,web-user,bagaimana cara mengisi irs,tanya_irs,0.9967468976974487,"Prosedur Pengisian IRS (Isian Rencana Studi):
+
+1. Bayar biaya pendidikan di bank yang bekerja sama (BNI, Mandiri, BTN, BRI)
+2. Lakukan her-registrasi online melalui SIAP
+3. Isi, perbaiki, atau cetak IRS sementara via SIAP
+4. Temui Pembimbing Akademik untuk konsultasi mata kuliah
+5. Pembimbing Akademik melakukan persetujuan online di SIAP
+6. Cek IRS online di sistem SIAP bila diperlukan
+",19.51,1
+2025-10-08T10:19:10.045881,web-user,bagaimana cara mengajukan rekomendasi beasiswa,tanya_rekomendasi_beasiswa,0.996239185333252,"Prosedur Pengajuan Rekomendasi Beasiswa (Maksimal 3 hari 45 menit):
+
+1. Download dan isi formulir Surat Rekomendasi Beasiswa ke Subbag Akademik
+2. BAK Fakultas meneliti dan memverifikasi
+3. BAK memberikan paraf dan nomor surat
+4. Wakil Dekan menandatangani
+5. Ambil surat di BAK Fakultas dan catat bukti pengambilan
+",16.07,1
+2025-10-08T10:21:12.298415,web-user,SOP pengajuan proposal kegiatan organisasi,tanya_proposal_organisasi,0.9974521994590759,"Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa (Maksimal 3 hari kerja):
+1. Serahkan proposal ke petugas kemahasiswaan dan Supervisor Akademik untuk registrasi dan alokasi ruang
+2. Supervisor meneliti dan memverifikasi proposal, memberikan paraf
+3. Wakil Dekan mengevaluasi substansi proposal
+4. Pengesahan oleh Wakil Dekan
+5. Ambil proposal yang telah disetujui
+",28.41,1
+2025-10-08T10:26:11.148979,web-user,SOP proposal organisasi,tanya_proposal_organisasi,0.9976824522018433,"Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa (Maksimal 3 hari kerja):
+1. Serahkan proposal ke petugas kemahasiswaan dan Supervisor Akademik untuk registrasi dan alokasi ruang
+2. Supervisor meneliti dan memverifikasi proposal, memberikan paraf
+3. Wakil Dekan mengevaluasi substansi proposal
+4. Pengesahan oleh Wakil Dekan
+5. Ambil proposal yang telah disetujui
+",26.65,1
+2025-10-08T12:46:58.284175,muthia,Apa prosedur cuti akademik di FSM?,tanya_cuti_akademik,0.9792131781578064,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",292.43,1
+2025-10-08T12:50:20.608565,muthia,"angkah-langkah yang dapat diikuti untuk memperoleh izin 
+keterlambatan  pembayaran  UKT",tanya_izin_terlambat_bayar_ukt,0.9813886880874634,"Prosedur Izin Keterlambatan Pembayaran UKT (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Permohonan Keterlambatan UKT dengan lampiran
+2. Minta tanda tangan dosen wali dan persetujuan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Supervisor Sumber Daya
+4. Supervisor memeriksa kelengkapan dan memberikan paraf
+5. Wakil Dekan Sumber Daya memproses surat permohonan
+6. Wakil Dekan Sumber Daya menandatangani surat
+7. Subbag Sumber Daya memproses surat
+8. Bawa surat ke Wakil Rektor II melalui Manajer Akademik
+9. Wakil Rektor II mendisposisikan ke Direktorat Keuangan
+10. Bendahara membuat sistem pembayaran
+11. Bayar UKT ke bank
+",8.36,1
+2025-10-08T12:51:24.409976,test,Syarat pindah prodi lintas fakultas apa aja ya?,nlu_fallback,0.7,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",7.82,0
+2025-10-08T13:22:46.268195,u1,Syarat pindah prodi lintas fakultas apa saja ya?,nlu_fallback,0.6,"Mohon maaf, informasi mengenai syarat pindah program studi lintas fakultas belum tersedia dalam dokumen resmi kampus yang saya miliki. 🙏
+
+⏱️ *Waktu respons: 13.62 detik*",25600.90,0
+2025-10-08T13:29:31.021279,u1,Apa prosedur cuti akademik di FSM?,tanya_cuti_akademik,0.9296929240226746,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",6.51,1
+2025-10-08T14:20:28.649022,web-user,Bagaimana cara pindah fakultas ke psikologi,nlu_fallback,0.6,"Maaf 😔, saya belum menemukan informasi yang sesuai di dokumen kampus.",6697.43,0
+2025-10-08T14:21:42.602178,web-user,kak kalo mau ajukan formulir cuti gimana,nlu_fallback,0.6,"Maaf 😔, saya belum menemukan informasi yang sesuai di dokumen kampus.",2923.04,0
+2025-10-08T14:22:26.625002,web-user,kak kalo mau ajukan formulir gimana,tanya_link_form,0.7873324155807495,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",2118.07,1
+2025-10-08T14:22:41.360035,web-user,prosedur cuti akademik itu gimana maksudnya,tanya_cuti_akademik,0.9879429936408997,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",2063.91,1
+2025-10-08T14:23:18.941367,web-user,Kalau mau ambil cuti kuliah itu ngurusnya gimana ya kak?,tanya_cuti_akademik,0.7966960072517395,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",2079.94,1
+2025-10-08T14:23:31.963535,web-user,Mau ngecap legalisir ijazah tuh prosedurnya gimana sih di FSM?,tanya_legalisir,0.9851775765419006,"Prosedur Legalisir Ijazah dan Transkrip (Maksimal 3 hari kerja):
+
+1. Serahkan fotokopi ijazah/transkrip/sertifikat beserta aslinya ke Subbag Akademik
+2. Petugas memeriksa keabsahan dan memberikan cap
+3. Supervisor memeriksa dan memberi paraf
+4. Dekan/Wakil Dekan menandatangani
+5. Petugas memberikan stempel fakultas
+6. Ambil legalisir dengan membawa aslinya dan tanda tangan di buku pengambilan
+",2079.65,1
+2025-10-08T14:23:44.731775,web-user,Ngisi IRS lewat SIAP itu step-stepnya apa aja?,tanya_irs,0.9243669509887695,"Prosedur Pengisian IRS (Isian Rencana Studi):
+
+1. Bayar biaya pendidikan di bank yang bekerja sama (BNI, Mandiri, BTN, BRI)
+2. Lakukan her-registrasi online melalui SIAP
+3. Isi, perbaiki, atau cetak IRS sementara via SIAP
+4. Temui Pembimbing Akademik untuk konsultasi mata kuliah
+5. Pembimbing Akademik melakukan persetujuan online di SIAP
+6. Cek IRS online di sistem SIAP bila diperlukan
+",2075.77,1
+2025-10-08T14:23:55.184589,web-user,"""Kalau telat bayar UKT, izinnya diurus kemana dan alurnya gimana?",tanya_izin_terlambat_bayar_ukt,0.9744285345077515,"Prosedur Izin Keterlambatan Pembayaran UKT (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Permohonan Keterlambatan UKT dengan lampiran
+2. Minta tanda tangan dosen wali dan persetujuan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Supervisor Sumber Daya
+4. Supervisor memeriksa kelengkapan dan memberikan paraf
+5. Wakil Dekan Sumber Daya memproses surat permohonan
+6. Wakil Dekan Sumber Daya menandatangani surat
+7. Subbag Sumber Daya memproses surat
+8. Bawa surat ke Wakil Rektor II melalui Manajer Akademik
+9. Wakil Rektor II mendisposisikan ke Direktorat Keuangan
+10. Bendahara membuat sistem pembayaran
+11. Bayar UKT ke bank
+",2090.66,1
+2025-10-08T14:29:55.928155,test,Kalau mau cuti kuliah itu gimana ya kak?,tanya_cuti_akademik,0.8852739334106445,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",-5909198.17,1
+2025-10-08T14:30:09.864127,test,Kalau mau cuti kuliah itu gimana ya kak?,tanya_cuti_akademik,0.8852739334106445,"Mohon maaf, saya belum dapat menjawab pertanyaan anda. Silakan hubungi Subbag Akademik langsung.",-5923369.78,1
+2025-10-08T14:55:09.627469,T2,Kalo mau cuti kuliah itu ngurusnya gimana ya kak?,tanya_cuti_akademik,0.8261752128601074,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",6691.37,1
+2025-10-08T14:55:25.855437,web-user,Kalo mau cuti kuliah itu ngurusnya gimana ya kak?,tanya_cuti_akademik,0.8261752128601074,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",3779.23,1
+2025-10-08T14:56:26.110690,web-user,Kalo mau cuti kuliah itu ngurusnya gimana ya kak?,tanya_cuti_akademik,0.8261752128601074,"Maaf 😔, saya belum menemukan informasi yang sesuai di dokumen kampus.",4812.88,1
+2025-10-08T15:02:31.456924,web-user,Kalo mau cuti kuliah itu ngurusnya gimana ya kak?,tanya_cuti_akademik,0.8261752128601074,"Maaf 😔, saya belum menemukan informasi yang sesuai di dokumen kampus.",2233.07,1
+2025-10-08T15:02:55.142580,web-user,kalo mau ngurus rekom beasiswa gimana ya,tanya_rekomendasi_beasiswa,0.9109970927238464,"Maaf 😔, saya belum menemukan informasi yang sesuai di dokumen kampus.",2145.50,1
+2025-10-08T15:10:20.340200,web-user,kak kalo cuti kuliah apa aja yang diurus,tanya_cuti_akademik,0.9728867411613464,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",4375.69,1
+2025-10-08T15:26:24.014169,web-user,kalo mau ajuin rekomendasi beasiswa,tanya_rekomendasi_beasiswa,0.9882838726043701,"Prosedur Pengajuan Rekomendasi Beasiswa (Maksimal 3 hari 45 menit):
+
+1. Download dan isi formulir Surat Rekomendasi Beasiswa ke Subbag Akademik
+2. BAK Fakultas meneliti dan memverifikasi
+3. BAK memberikan paraf dan nomor surat
+4. Wakil Dekan menandatangani
+5. Ambil surat di BAK Fakultas dan catat bukti pengambilan
+",7447.24,1
+2025-10-11T19:14:49.068341,web-user,bagaimana cara mengajukan surat rekomendasi beasiswa,tanya_rekomendasi_beasiswa,0.9951103329658508,"Prosedur Pengajuan Rekomendasi Beasiswa (Maksimal 3 hari 45 menit):
+
+1. Download dan isi formulir Surat Rekomendasi Beasiswa ke Subbag Akademik
+2. BAK Fakultas meneliti dan memverifikasi
+3. BAK memberikan paraf dan nomor surat
+4. Wakil Dekan menandatangani
+5. Ambil surat di BAK Fakultas dan catat bukti pengambilan
+",4984.95,1
+2025-10-11T19:16:08.324578,web-user,kamu udah makan belum?,nlu_fallback,0.9787004590034485,"Maaf, RAG sedang tidak dapat diakses.",4222.48,0
+2025-10-11T19:16:32.050296,web-user,pedoman,nlu_fallback,0.6,"Maaf, RAG sedang tidak dapat diakses.",4168.60,0
+2025-10-11T19:17:04.187918,web-user,"kak, aku mau daftar beasiswa, surat rekomendasinya gimana ya?",tanya_rekomendasi_beasiswa,0.9432991147041321,"Prosedur Pengajuan Rekomendasi Beasiswa (Maksimal 3 hari 45 menit):
+
+1. Download dan isi formulir Surat Rekomendasi Beasiswa ke Subbag Akademik
+2. BAK Fakultas meneliti dan memverifikasi
+3. BAK memberikan paraf dan nomor surat
+4. Wakil Dekan menandatangani
+5. Ambil surat di BAK Fakultas dan catat bukti pengambilan
+",4200.12,1
+2025-10-11T19:18:01.450939,web-user,info link formulir,tanya_link_form,0.9977366924285889,"Link Download Formulir:
+
+Form Cuti Akademik:
+https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+
+Form Rekomendasi Beasiswa:
+https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+
+Form Keterlambatan Pembayaran UKT:
+https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+",4201.17,1
+2025-10-11T19:18:17.521479,web-user,kalender akademik,tanya_kontak,0.9198310375213623,"Kontak Layanan Akademik FSM:
+
+Subbag Akademik dan Kemahasiswaan
+Telepon: (024) 747 4754
+Email: akademikfsm@live.undip.ac.id
+",4197.83,1
+2025-10-11T19:18:50.750344,web-user,gaada yang mau aku tanyain sih,pembuka,0.9408554434776306,Selamat datang! Saya siap membantu Anda dengan informasi layanan akademik.,20.42,1
+2025-10-17T09:03:18.226491,muthia-test,prosedur cuti akademik gimana,tanya_cuti_akademik,0.9986866116523743,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",10437.17,1
+2025-10-17T09:03:57.244169,muthia-test,prosedur cuti akademik gimana,tanya_cuti_akademik,0.9986866116523743,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",9264.93,1
+2025-10-17T09:17:13.983044,muthia-test,prosedur cuti akademik gimana,tanya_cuti_akademik,0.9986866116523743,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",21178.32,1
+2025-10-17T09:24:36.652011,web-user,bagaimana prosedur cuti akademik,tanya_cuti_akademik,0.9990453124046326,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",8298.63,1
+2025-10-17T09:25:09.610527,web-user,bagaimana prosedur cuti akademik,tanya_cuti_akademik,0.9990453124046326,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",9635.89,1
+2025-10-17T09:25:49.195959,web-user,bagaimana prosedur cuti akademik,tanya_cuti_akademik,0.9990453124046326,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",9098.05,1
+2025-10-17T09:35:37.550834,web-user,prosedur cuti akademik,tanya_cuti_akademik,0.9985480904579163,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",8031.83,1
+2025-10-17T09:35:53.936154,web-user,prosedur cuti akademik,tanya_cuti_akademik,0.9985480904579163,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",9857.77,1
+2025-10-17T10:17:09.480707,web-user,apa itu irs,tanya_irs,0.8189907073974609,"Prosedur Pengisian IRS (Isian Rencana Studi):
+
+1. Bayar biaya pendidikan di bank yang bekerja sama (BNI, Mandiri, BTN, BRI)
+2. Lakukan her-registrasi online melalui SIAP
+3. Isi, perbaiki, atau cetak IRS sementara via SIAP
+4. Temui Pembimbing Akademik untuk konsultasi mata kuliah
+5. Pembimbing Akademik melakukan persetujuan online di SIAP
+6. Cek IRS online di sistem SIAP bila diperlukan
+",5489.05,1
+2025-10-17T10:19:46.985992,web-user,saya mau ga kuliah gimana prosedurnya,tanya_cuti_akademik,0.9192824959754944,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",7507.81,1
+2025-10-17T10:48:16.357575,web-user,irs tu apa,tanya_irs,0.9219771027565002,"Prosedur Pengisian IRS (Isian Rencana Studi):
+
+1. Bayar biaya pendidikan di bank yang bekerja sama (BNI, Mandiri, BTN, BRI)
+2. Lakukan her-registrasi online melalui SIAP
+3. Isi, perbaiki, atau cetak IRS sementara via SIAP
+4. Temui Pembimbing Akademik untuk konsultasi mata kuliah
+5. Pembimbing Akademik melakukan persetujuan online di SIAP
+6. Cek IRS online di sistem SIAP bila diperlukan
+",2136.67,1
+2025-10-27T10:53:50.425376,web-user,pedoman cuti akademik gimana sih,tanya_cuti_akademik,0.9871914386749268,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",2838.74,1
+2025-10-31T11:13:06.374881,web-user,formulir cuti,tanya_link_form,0.8089854717254639,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",-346752559.63,1
+2025-10-31T11:30:07.079328,test,halo,pembuka,0.9998688697814941,Halo! Saya chatbot layanan akademik FSM. Ada yang bisa saya bantu hari ini?,662.02,1
+2025-10-31T11:57:07.066840,web-user,halo,pembuka,0.9998688697814941,Halo! Saya chatbot layanan akademik FSM. Ada yang bisa saya bantu hari ini?,339.86,1
+2025-10-31T11:57:55.680370,web-user,bagaimana Pengajuan Proposal Ormawa,tanya_proposal_organisasi,0.9569833874702454,"Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa (Maksimal 3 hari kerja):
+1. Serahkan proposal ke petugas kemahasiswaan dan Supervisor Akademik untuk registrasi dan alokasi ruang
+2. Supervisor meneliti dan memverifikasi proposal, memberikan paraf
+3. Wakil Dekan mengevaluasi substansi proposal
+4. Pengesahan oleh Wakil Dekan
+5. Ambil proposal yang telah disetujui
+",2134.57,1
+2025-10-31T12:01:50.801337,web-user,bagaimana Legalisir Ijazah/Transkrip,tanya_legalisir,0.9975467324256897,"Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa (Maksimal 3 hari kerja):
+1. Serahkan proposal ke petugas kemahasiswaan dan Supervisor Akademik untuk registrasi dan alokasi ruang
+2. Supervisor meneliti dan memverifikasi proposal, memberikan paraf
+3. Wakil Dekan mengevaluasi substansi proposal
+4. Pengesahan oleh Wakil Dekan
+5. Ambil proposal yang telah disetujui
+",-232777.91,1
+2025-10-31T12:02:11.220142,web-user,bagaiman  Pengajuan Proposal Ormawa,tanya_proposal_organisasi,0.970876932144165,"Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa (Maksimal 3 hari kerja):
+1. Serahkan proposal ke petugas kemahasiswaan dan Supervisor Akademik untuk registrasi dan alokasi ruang
+2. Supervisor meneliti dan memverifikasi proposal, memberikan paraf
+3. Wakil Dekan mengevaluasi substansi proposal
+4. Pengesahan oleh Wakil Dekan
+5. Ambil proposal yang telah disetujui
+",-253493.49,1
+2025-11-03T19:20:47.061529,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9984956979751587,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",3125.40,1
+2025-11-03T19:21:09.643629,web-user,prosedur cuti,tanya_cuti_akademik,0.9989179372787476,"Prosedur Cuti Akademik (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Cuti Akademik, lampirkan persyaratan dan isi online via SIAP
+2. Minta persetujuan dan tanda tangan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Dekan untuk disposisi ke Subbag Akademik dan Kemahasiswaan
+4. Subbag Akademik memeriksa kelengkapan dan memproses
+5. Dekan menandatangani Surat Izin Dekan
+6. Subbag Sumber Daya memberi nomor surat dan mengirimkannya
+7. Mahasiswa dapat mengambil Surat Izin Dekan di loket akademik
+",2211.05,1
+2025-11-03T19:21:20.328241,web-user,legalisir ijazah,tanya_legalisir,0.9968277812004089,"Prosedur Legalisir Ijazah dan Transkrip (Maksimal 3 hari kerja):
+
+1. Serahkan fotokopi ijazah/transkrip/sertifikat beserta aslinya ke Subbag Akademik
+2. Petugas memeriksa keabsahan dan memberikan cap
+3. Supervisor memeriksa dan memberi paraf
+4. Dekan/Wakil Dekan menandatangani
+5. Petugas memberikan stempel fakultas
+6. Ambil legalisir dengan membawa aslinya dan tanda tangan di buku pengambilan
+",2198.20,1
+2025-11-03T19:21:33.241656,web-user,izn terlambat bayar ukt,tanya_izin_terlambat_bayar_ukt,0.9957615733146667,"Prosedur Izin Keterlambatan Pembayaran UKT (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Permohonan Keterlambatan UKT dengan lampiran
+2. Minta tanda tangan dosen wali dan persetujuan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Supervisor Sumber Daya
+4. Supervisor memeriksa kelengkapan dan memberikan paraf
+5. Wakil Dekan Sumber Daya memproses surat permohonan
+6. Wakil Dekan Sumber Daya menandatangani surat
+7. Subbag Sumber Daya memproses surat
+8. Bawa surat ke Wakil Rektor II melalui Manajer Akademik
+9. Wakil Rektor II mendisposisikan ke Direktorat Keuangan
+10. Bendahara membuat sistem pembayaran
+11. Bayar UKT ke bank
+",2198.44,1
+2025-11-03T19:38:21.347158,web-user,telat bayar ukt gimana permohonannya,tanya_izin_terlambat_bayar_ukt,0.9804632067680359,"Prosedur Izin Keterlambatan Pembayaran UKT (Maksimal 3 hari kerja):
+
+1. Unduh, isi, dan tandatangani Form Permohonan Keterlambatan UKT dengan lampiran
+2. Minta tanda tangan dosen wali dan persetujuan Ketua Program Studi
+3. Serahkan form yang sudah ditandatangani ke Supervisor Sumber Daya
+4. Supervisor memeriksa kelengkapan dan memberikan paraf
+5. Wakil Dekan Sumber Daya memproses surat permohonan
+6. Wakil Dekan Sumber Daya menandatangani surat
+7. Subbag Sumber Daya memproses surat
+8. Bawa surat ke Wakil Rektor II melalui Manajer Akademik
+9. Wakil Rektor II mendisposisikan ke Direktorat Keuangan
+10. Bendahara membuat sistem pembayaran
+11. Bayar UKT ke bank
+",2996.45,1
+2025-11-03T19:38:34.128587,web-user,SLA Layanan Akademik:,tanya_layanan_akademik,0.7930189967155457,"Layanan Akademik yang Tersedia:
+
+Cuti Akademik
+Legalisir Ijazah & Transkrip
+Proposal Kegiatan Organisasi
+Rekomendasi Beasiswa
+Pengisian IRS (Isian Rencana Studi)
+Izin Aktif Setelah Cuti
+Izin Keterlambatan Bayar UKT
+
+Silakan pilih layanan yang ingin Anda tanyakan!
+",2157.00,1
+2025-11-03T19:38:45.714006,web-user,Jadwal Layanan:,tanya_jadwal,0.9817864298820496,"Informasi Jadwal Layanan:
+
+Jam Operasional: Senin - Jumat, 08.00 - 16.00 WIB
+Lokasi: Gedung Acintya Prasada Lt. 1, Fakultas Sains dan Matematika, UNDIP
+Hari Libur: Mengikuti kalender akademik UNDIP
+",2186.21,1
+2025-11-03T19:47:43.267620,web-user,Jadwal Layanan:,tanya_jadwal,0.9817864298820496,"Informasi Jadwal Layanan:
+
+Jam Operasional: Senin - Jumat, 08.00 - 16.00 WIB
+Lokasi: Gedung Acintya Prasada Lt. 1, Fakultas Sains dan Matematika, UNDIP
+Hari Libur: Mengikuti kalender akademik UNDIP
+",2200.06,1
+2025-11-03T19:57:08.855307,web-user,permohonan terlambat bayar ukt,tanya_izin_terlambat_bayar_ukt,0.9928954243659973,"Informasi Jadwal Layanan:
+
+Jam Operasional: Senin - Jumat, 08.00 - 16.00 WIB
+Lokasi: Gedung Acintya Prasada Lt. 1, Fakultas Sains dan Matematika, UNDIP
+Hari Libur: Mengikuti kalender akademik UNDIP
+",-562777.68,1
+2025-11-03T20:07:00.016376,web-user,Izin Terlambat Bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9959942102432251,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2774.59,1
+2025-11-03T20:07:21.361523,web-user,jelaskan prosedur untuk izin telat bayar UKT,tanya_izin_terlambat_bayar_ukt,0.987773597240448,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2182.18,1
+2025-11-03T20:07:29.609111,web-user,ukt,tanya_izin_terlambat_bayar_ukt,0.8055496215820312,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2144.78,1
+2025-11-03T20:09:11.849624,web-user,jelaskan prosedur untuk izin telat bayar UKT,tanya_izin_terlambat_bayar_ukt,0.987773597240448,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2183.45,1
+2025-11-03T20:18:56.876563,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2996.14,1
+2025-11-03T20:19:08.182059,web-user,mau cuti akademik gimana,tanya_cuti_akademik,0.9941617846488953,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2170.90,1
+2025-11-03T20:19:47.453521,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2186.62,1
+2025-11-04T09:08:10.137260,web-user,Legalisir Ijazah/Transkrip,tanya_legalisir,0.9986329674720764,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2795.38,1
+2025-11-04T09:18:26.603337,web-user,Legalisir Ijazah/Transkrip,tanya_legalisir,0.9986329674720764,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",2343.79,1
+2025-11-04T19:01:25.235544,web-user,"mau nyalin ijazah yang udah dicap kampus, caranya?",nlu_fallback,0.95,"Boleh diperjelas? Kamu bisa tanya kalender, KRS/KHS, UKT, yudisium, skripsi, magang, atau kontak. 🙂",-34976275.22,0
+2025-11-04T19:26:38.410301,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,(FAQ) Aku bantu ya: boleh cuti semester ga ya soalnya capek banget kuliah 😭,2331.67,0
+2025-11-04T19:27:02.183877,web-user,aku belom sempet transfer uang semester kemaren �� gimana ya,nlu_fallback,0.95,(FAQ) Aku bantu ya: aku belom sempet transfer uang semester kemaren �� gimana ya,2077.27,0
+2025-11-04T19:36:36.248813,web-user,aku belom sempet transfer uang semester kemaren �� gimana ya,nlu_fallback,0.95,(FAQ) Aku bantu ya: aku belom sempet transfer uang semester kemaren �� gimana ya,-571677.83,0
+2025-11-04T19:46:32.936526,web-user,"UKT aku belum kebayar, bisa minta dispensasi?",tanya_izin_terlambat_bayar_ukt,0.9689465165138245,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2096.02,1
+2025-11-04T19:46:41.913342,web-user,iyaa,nlu_fallback,0.95,(FAQ) Aku bantu ya: iyaa,2155.06,0
+2025-11-04T19:46:54.595151,web-user,bagaimana caranya,nlu_fallback,0.95,(FAQ) Aku bantu ya: bagaimana caranya,2137.22,0
+2025-11-04T19:52:35.070442,test-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,2399.95,0
+2025-11-04T19:57:13.022327,test-user,boleh izin nunda bayar uang kuliah dikit gak?,nlu_fallback,0.95,(FAQ) Aku bantu ya: boleh izin nunda bayar uang kuliah dikit gak?,2129.22,0
+2025-11-04T20:05:33.100790,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,7420.60,0
+2025-11-04T20:07:12.471105,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,7115.16,0
+2025-11-04T20:21:04.853660,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,17343.91,0
+2025-11-04T20:36:21.319146,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,"Halo! 👋 Selamat datang di SIMA-BOT. Saya siap membantu kamu.
+
+Berdasarkan dokumen Standar Operasional Prosedur (SOP) Legalisir Ijazah dan Transkrip yang saya miliki, prosedur yang dijelaskan adalah untuk legalisir ijazah/transkrip nilai/sertifikat akreditasi secara umum.
+
+Dokumen tersebut belum menjelaskan secara spesifik mengenai prosedur untuk legalisir ijazah yang sudah pernah dilegalisir sebelumnya oleh kampus.
+
+Untuk informasi lebih lanjut mengenai kasus ini, saya sarankan kamu bisa langsung menghubungi Subbag Akademik dan Kemahasiswaan Fakultas Sains dan Matematika ya. Mereka pasti akan dengan senang hati membantu memberikan arahan terbaik. 😊
+
+⏱️ *Waktu respons: 7.12 detik*",17509.99,0
+2025-11-04T20:36:55.090186,test,izin telat bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9919571876525879,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2078.50,1
+2025-11-04T20:37:41.026488,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,-1821174.47,0
+2025-11-04T20:38:18.671994,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,-1856620.35,0
+2025-11-04T20:38:39.781715,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",-97431.98,0
+2025-11-04T20:40:44.608494,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",-219208.46,0
+2025-11-04T20:40:52.999827,test,izin telat bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9919571876525879,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2083.30,1
+2025-11-04T20:41:18.030609,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(RAG) Aku carikan dari dokumen kampus ya.,18118.63,0
+2025-11-04T20:41:57.558736,test,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,"Halo! 👋 Selamat datang di SIMA-BOT. Saya siap membantu Anda.
+
+Terkait pertanyaan Anda mengenai legalisir ijazah yang sudah pernah dilegalisir kampus, setelah saya periksa dokumen Standar Operasional Prosedur (SOP) Legalisir Ijazah dan Transkrip, informasi mengenai prosedur untuk melegalisir ulang dokumen yang sudah pernah dilegalisir sebelumnya belum tersedia di dalam konteks yang saya miliki saat ini. 🙏
+
+SOP yang ada menjelaskan langkah-langkah untuk legalisir ijazah/transkrip secara umum. Untuk kasus spesifik seperti yang Anda tanyakan, mungkin ada kebijakan atau prosedur tambahan yang perlu dikonfirmasi langsung.
+
+Mohon maaf, saya belum bisa memberikan informasi detail untuk hal tersebut.
+
+⏱️ *Waktu respons: 6.94 detik*",17084.71,0
+2025-11-04T20:42:15.182953,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,-2093280.43,0
+2025-11-04T20:44:19.377580,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,(FAQ) Aku bantu ya: mau nyalin ijazah yang udah dicap kampus,-2217625.60,0
+2025-11-04T20:46:06.787495,web-user,mau nyalin ijazah yang udah dicap kampus,nlu_fallback,0.95,"Mohon maaf, aku belum dapat menjawab. Kamu bisa kontak Subbag Akademik langsung.",10390.41,0
+2025-11-04T20:46:49.433886,web-user,"UKT aku belum kebayar, bisa minta dispensasi?",tanya_izin_terlambat_bayar_ukt,0.9689465165138245,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2098.92,1
+2025-11-04T20:47:07.999700,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",10091.13,0
+2025-11-04T20:48:04.681676,web-user,boleh izin nunda bayar uang kuliah dikit gak?,nlu_fallback,0.95,"Mohon maaf, aku belum dapat menjawab. Kamu bisa kontak Subbag Akademik langsung.",10126.21,0
+2025-11-04T20:52:45.240741,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",10384.43,0
+2025-11-04T20:53:30.820428,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,"Mohon maaf, aku belum dapat menjawab. Kamu bisa kontak Subbag Akademik langsung.",10135.09,0
+2025-11-04T20:53:49.918040,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,"Mohon maaf, aku belum dapat menjawab. Kamu bisa kontak Subbag Akademik langsung.",10131.83,0
+2025-11-04T20:54:09.861748,web-user,boleh cuti semester ga ya soalnya capek banget kuliah 😭,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",10124.88,0
+2025-11-04T21:08:10.046775,web-user,boleh cuti semester ga ya soalnya capek banget kuliah,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",-829582.43,0
+2025-11-04T21:11:51.419009,web-user,boleh cuti semester ga ya soalnya capek banget kuliah ?,nlu_fallback,0.95,"Halo! 👋 SIMA-BOT memahami sekali kalau kadang ada masa-masa kita merasa lelah dan butuh istirahat dari rutinitas kuliah. Tentu saja, kamu bisa mengajukan permohonan cuti akademik, kok! 😊
+
+Untuk mengajukan cuti akademik, kamu bisa mengikuti langkah-langkah berikut ya:
+
+1.  **Siapkan Dokumen:** Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa lampirkan juga Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi KTM, dan dokumen pendukung lain yang mungkin diperlukan. Selain itu, kamu juga wajib mengisi permohonan ini secara online melalui SIAP.
+    *   Link unduh form cuti akademik bisa kamu akses di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah form terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Form yang sudah ditandatangani Ketua Program Studi kemudian diserahkan ke Dekan untuk diproses lebih lanjut dan didisposisikan ke Subbag Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan Dokumen:** Subbag Akademik dan Kemahasiswaan akan memeriksa kelengkapan persyaratanmu. Jika sudah lengkap, form akan diparaf dan diproses.
+5.  **Penandatanganan Surat Izin:** Dekan akan menandatangani Surat Izin Cuti Akademikmu.
+6.  **Pemberian Nomor Surat & Pengiriman:** Surat izin akan diberi nomor oleh Subbag Sumber Daya dan dikirimkan ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Walimu dan Ketua Program Studi.
+7.  **Update Status & Pengarsipan:** Subbag Akademik dan Kemahasiswaan akan memperbarui status mahasiswamu di Sistem Akademik, mengarsipkan surat izin, dan mengirimkannya kepadamu.
+8.  **Pengambilan Surat Izin:** Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Proses permohonan izin cuti akademik ini membutuhkan waktu maksimal 3 (tiga) hari kerja, ya.
+
+Semoga informasinya membantu dan kamu bisa mendapatkan istirahat yang cukup! Jika ada pertanyaan lain, jangan sungkan bertanya lagi ya. 😊
+
+⏱️ *Waktu respons: 22.95 detik*",25425.59,0
+2025-11-04T21:14:58.026725,web-user,boleh cuti semester ga ya soalnya capek banget kuliah ?,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",27166.67,0
+2025-11-04T21:16:40.312584,web-user,boleh cuti semester ga ya soalnya capek banget kuliah ?,nlu_fallback,0.95,"Halo! 👋 SIMA-BOT mengerti kalau kadang kuliah memang bisa bikin capek ya. Jangan khawatir, kamu bisa kok mengajukan permohonan izin cuti akademik. 😊
+
+Berdasarkan Standar Operasional Prosedur (SOP) Permohonan Izin Cuti Akademik, berikut adalah langkah-langkah yang bisa kamu ikuti:
+
+1.  **Siapkan Dokumen:** Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa lampirkan juga persyaratan lain seperti Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi KTM, dan dokumen pendukung lainnya jika ada. Kamu juga wajib mengisi secara online melalui SIAP.
+    *   Link unduh form: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah form terisi lengkap, kamu perlu meminta persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Form yang sudah ditandatangani Ketua Program Studi kemudian diserahkan ke Dekan untuk diproses lebih lanjut ke Subbag Akademik dan Kemahasiswaan.
+4.  **Proses di Fakultas:** Subbag Akademik dan Kemahasiswaan akan memeriksa kelengkapan persyaratanmu. Jika sudah lengkap, form akan diproses dan Dekan akan menandatangani Surat Izin Dekan.
+5.  **Pengiriman Surat:** Surat Izin Dekan akan diberi nomor dan dikirimkan ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+6.  **Update Status Mahasiswa:** Subbag Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan surat, dan mengirimkannya kepadamu.
+7.  **Ambil Surat Izin:** Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Total waktu pemrosesan maksimal untuk permohonan izin cuti akademik ini adalah **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 8.43 detik*",10552.99,0
+2025-11-04T21:30:37.422342,web-user,boleh cuti semester ga ya soalnya capek banget kuliah ?,nlu_fallback,0.95,"Maaf, aku belum bisa bantu pertanyaan itu. Silakan hubungi Subbag Akademik, ya.",17137.21,0
+2025-11-04T21:34:00.186182,web-user,"UKT aku belum kebayar, bisa minta dispensasi?",tanya_izin_terlambat_bayar_ukt,0.9689465165138245,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2387.15,1
+2025-11-05T19:58:56.535231,web-user,boleh cuti akademik ga?,nlu_fallback,0.95,"Halo! 👋 Tentu saja, mahasiswa bisa mengajukan cuti akademik, kok. 😊 Ada prosedur yang perlu diikuti untuk permohonan izin cuti akademik ini.
+
+Berikut adalah langkah-langkah yang bisa kamu ikuti:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa untuk melampirkan dokumen-dokumen yang dibutuhkan. Selain itu, kamu juga wajib mengisi permohonan ini secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:** Form Cuti Akademik, Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi KTM, dan dokumen pendukung lain.
+    *   **Link unduh form:** [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, kamu perlu meminta persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Kemudian, serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nantinya, akan ada disposisi ke Subbag Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan Dokumen:** Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratanmu. Jika semua sudah lengkap, formulir akan diparaf dan diproses lebih lanjut.
+5.  **Penandatanganan Surat Izin Dekan:** Dekan akan menandatangani Surat Izin Dekan.
+6.  **Pemberian Nomor Surat:** Subbag Sumber Daya akan memberi nomor pada surat izinmu dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+7.  **Update Status dan Pengiriman Surat:** Subbag Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+8.  **Pengambilan Surat Izin:** Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Seluruh proses permohonan izin cuti akademik ini memiliki total waktu pemrosesan maksimal 3 (tiga) hari kerja, ya.
+
+Semoga informasinya membantu! Jika ada pertanyaan lain, jangan sungkan untuk bertanya lagi. 😊
+
+⏱️ *Waktu respons: 5.37 detik*",8498.56,0
+2025-11-05T20:34:03.904582,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2894.06,1
+2025-11-06T14:37:30.083597,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2678.78,1
+2025-11-06T14:38:14.088713,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2108.62,1
+2025-11-06T14:39:58.620304,web-user,"aku mau tunda kuliah, gimana caranya?",tanya_cuti_akademik,0.9730564951896667,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2159.25,1
+2025-11-06T19:23:29.058491,web-user,prosedur legalisir ijazah,tanya_legalisir,0.9987797141075134,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur legalisir ijazah.
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi program studi, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Penyerahan Dokumen:** Alumni menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Dokumen:** Alumni dapat mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen asli, serta menulis dan menandatangani di buku pengambilan.
+
+**Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir (fotokopi dan dokumen asli yang ingin dilegalisir).
+**Total waktu pemrosesan maksimal:** 3 (tiga) hari kerja.
+
+Semoga informasinya membantu ya! 😊
+
+⏱️ *Waktu respons: 4.91 detik*",8122.42,1
+2025-11-06T19:23:50.462584,web-user,bagaimana cara legalisir ijazah,tanya_legalisir,0.9987760186195374,"Halo! 👋 Tentu, saya akan bantu jelaskan bagaimana cara legalisir ijazah di Fakultas Sains dan Matematika Universitas Diponegoro. Prosesnya mudah kok, dan total waktu pemrosesannya maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Serahkan Dokumen:** Kamu perlu menyerahkan fotokopi ijazah (atau transkrip nilai/sertifikat akreditasi program studi) beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+
+**Dokumen yang dibutuhkan:**
+*   Fotokopi ijazah (atau transkrip nilai/sertifikat akreditasi program studi)
+*   Dokumen asli ijazah (atau transkrip nilai/sertifikat akreditasi program studi)
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.73 detik*",8007.85,1
+2025-11-06T19:24:21.578542,web-user,Legalisir Ijazah dan Transkrip,tanya_legalisir,0.9987780451774597,"Halo! 👋 Tentu, saya siap bantu menjelaskan prosedur legalisir ijazah dan transkrip. Berdasarkan dokumen SOP yang ada, berikut adalah langkah-langkahnya:
+
+Untuk melakukan legalisir ijazah dan transkrip, kamu bisa mengikuti langkah-langkah berikut:
+
+1.  **Menyerahkan Berkas:** Kamu perlu menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+    *   **Waktu:** Sekitar 5 menit
+    *   **Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir (fotokopi dan asli ijazah/transkrip/sertifikat akreditasi)
+
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, kemudian memberikan cap.
+    *   **Waktu:** Sekitar 10 menit
+
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+    *   **Waktu:** Sekitar 15 menit
+
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+    *   **Waktu:** Sekitar 1 hari
+
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+    *   **Waktu:** Sekitar 5 menit
+
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya dan menulis di buku pengambilan serta menandatanganinya.
+    *   **Waktu:** Sekitar 15 menit
+
+**Total waktu pemrosesan maksimal** untuk legalisir ini adalah **3 hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.91 detik*",6174.33,1
+2025-11-06T19:55:06.637035,web-user,Bagaimana Pengisian IRS,tanya_irs,0.9973499774932861,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk pengisian Isian Rencana Studi (IRS) ya. Proses ini biasanya memakan waktu maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Pembayaran Biaya Pendidikan:** Pertama-tama, kamu perlu membayar biaya pendidikan (SPP/UKT) di bank yang bekerja sama dengan Undip, seperti BNI, Mandiri, BTN, atau BRI. Setelah pembayaran, kamu akan mendapatkan bukti pembayaran.
+2.  **Her-registrasi Online:** Selanjutnya, lakukan her-registrasi secara online melalui sistem SIAP.
+3.  **Pengisian IRS Online:** Setelah her-registrasi, kamu bisa mulai mengisi, memperbaiki, atau bahkan mencetak IRS sementara secara online juga melalui SIAP.
+4.  **Konsultasi dengan Pembimbing Akademik:** Penting sekali untuk menemui Pembimbing Akademik (PA) kamu. Konsultasikan mata kuliah yang ingin kamu ambil. Beliau akan memberikan arahan dan memastikan jumlah SKS yang kamu ambil sudah sesuai dengan ketentuan maksimal di semester tersebut.
+5.  **Persetujuan Pembimbing Akademik:** Jika mata kuliah dan jumlah SKS sudah disepakati dan sesuai, Pembimbing Akademik akan memberikan persetujuan secara online melalui SIAP.
+6.  **Pengecekan IRS:** Terakhir, kamu bisa melakukan pengecekan IRS online di sistem SIAP kapan pun kamu perlukan untuk memastikan semuanya sudah benar.
+
+Semoga informasi ini membantu kamu dalam mengisi IRS ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.85 detik*",6113.89,1
+2025-11-06T20:01:25.357159,web-user,Link Formulir?,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2901.63,1
+2025-11-07T19:52:37.488922,web-user,halo,pembuka,0.9999055862426758,Selamat datang! Aku siap bantu info layanan akademik 😊.,400.90,1
+2025-11-07T20:22:53.789598,web-user,Hai chatbot FSM,pembuka,0.9976561069488525,Selamat datang! Aku siap bantu info layanan akademik 😊.,294.49,1
+2025-11-07T20:23:28.018418,web-user,"Baik, makasih infonya ya",terima_kasih,0.997089684009552,Sama-sama! Senang bisa bantu. Ada lagi yang bisa kubantu?,21.31,1
+2025-11-07T20:24:41.180815,web-user,oi,pembuka,0.9048482179641724,Selamat datang! Aku siap bantu info layanan akademik 😊.,21.31,1
+2025-11-07T20:26:42.478423,web-user,hi,pembuka,0.9982879757881165,Selamat datang! Aku siap bantu info layanan akademik 😊.,19.55,1
+2025-11-07T20:27:17.318218,web-user,bagaimana zin Terlambat Bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9975669384002686,"Halo! 👋 Tentu, saya siap bantu menjelaskan bagaimana prosedur untuk mengajukan izin keterlambatan pembayaran UKT.
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti untuk mengajukan permohonan izin keterlambatan pembayaran UKT. Proses ini membutuhkan waktu maksimal 3 (tiga) hari kerja, ya.
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Permohonan Keterlambatan Pembayaran UKT. Jangan lupa untuk melampirkan persyaratan yang dibutuhkan. Kamu bisa mengunduh formulirnya di sini: [https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/](https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/)
+2.  **Minta Tanda Tangan Dosen Wali dan Ketua Program Studi:** Setelah formulir terisi, mintalah tanda tangan dosen walimu, serta persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan Formulir ke Supervisor Sumber Daya:** Jika formulir sudah lengkap dengan tanda tangan dan persetujuan, serahkan kepada Supervisor Sumber Daya.
+4.  **Pemeriksaan oleh Supervisor Sumber Daya:** Supervisor Sumber Daya akan menerima, memeriksa, dan meneliti kelengkapan persyaratan pada formulirmu, lalu memberikan paraf.
+5.  **Pemrosesan Surat oleh Wakil Dekan Sumber Daya:** Wakil Dekan Sumber Daya akan memproses Surat Permohonan Izin Keterlambatan Pembayaran UKT-mu.
+6.  **Penandatanganan Surat oleh Wakil Dekan Sumber Daya:** Setelah diproses, Wakil Dekan Sumber Daya akan menandatangani surat permohonan tersebut.
+7.  **Pemrosesan Lanjutan oleh Subbag Sumber Daya:** Subbag Sumber Daya akan melanjutkan pemrosesan Surat Permohonan Keterlambatan Pembayaran UKT.
+8.  **Bawa Surat ke Wakil Rektor II:** Kamu perlu membawa Surat Permohonan Keterlambatan Pembayaran UKT yang sudah jadi kepada Wakil Rektor II melalui Manajer Akademik.
+9.  **Disposisi ke Direktorat Keuangan:** Wakil Rektor II akan mendisposisikan suratmu ke Direktorat Keuangan untuk memproses pembayaran UKT.
+10. **Pembukaan Sistem Pembayaran:** Bendahara Penerimaan UKT akan membuka sistem pembayaran untukmu.
+11. **Pembayaran UKT:** Terakhir, kamu bisa melakukan pembayaran biaya UKT ke bank.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.18 detik*",8322.68,1
+2025-11-07T20:28:02.310756,web-user,izin terlambat bayar ukt,tanya_izin_terlambat_bayar_ukt,0.9963405132293701,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2135.71,1
+2025-11-07T20:31:31.405958,web-user,test,pembuka,0.9997020363807678,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,20.09,1
+2025-11-09T21:01:17.102375,web-user,Test,pembuka,0.9996775388717651,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,292.82,1
+2025-11-09T21:01:57.807502,web-user,Bagaimana cara mengajukan cuti akademik,tanya_cuti_akademik,0.9983525276184082,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan bagaimana cara mengajukan cuti akademik di Fakultas Sains dan Matematika Universitas Diponegoro. 😊
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti untuk mengajukan cuti akademik:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa lampirkan juga persyaratan yang dibutuhkan. Selain itu, kamu juga wajib mengisi formulir secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:** Form Cuti Akademik, Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi Kartu Tanda Mahasiswa (KTM), dan dokumen pendukung lain.
+    *   **Link unduh form:** [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nantinya, form ini akan didisposisikan ke Subbag Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan Dokumen:** Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratan form cuti akademikmu. Jika semua sudah lengkap, form akan diberi paraf dan diproses lebih lanjut.
+5.  **Penandatanganan Surat Izin Dekan:** Dekan akan menandatangani Surat Izin Dekan.
+6.  **Pemberian Nomor Surat:** Subbag Sumber Daya akan memberi nomor surat dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+7.  **Update Status Mahasiswa:** Subbag Akademik dan Kemahasiswaan akan mengupdate statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+8.  **Ambil Surat Izin Dekan:** Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Seluruh proses ini diperkirakan membutuhkan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.49 detik*",7862.49,1
+2025-11-09T21:02:21.085373,web-user,sebutkan langkah2 mengajukan cuti akademik,tanya_cuti_akademik,0.9455306529998779,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan langkah-langkah untuk mengajukan cuti akademik. Proses ini dirancang agar mudah diikuti dan memiliki waktu pemrosesan maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa lampirkan juga dokumen persyaratan yang dibutuhkan, yaitu:
+    *   Form Cuti Akademik
+    *   Transkrip Akademik
+    *   Bukti bayar SPP/UKT terakhir
+    *   Fotokopi KTM
+    *   Dokumen pendukung lain (jika ada)
+    Kamu bisa mengunduh formulirnya di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+    Selain itu, kamu juga wajib mengisi permohonan secara online melalui SIAP.
+
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+
+3.  **Serahkan ke Dekan:** Selanjutnya, serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nanti akan ada proses disposisi ke Subbag Akademik dan Kemahasiswaan.
+
+4.  **Pemeriksaan Dokumen:** Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratanmu. Jika semua sudah lengkap, formulir akan diberi paraf dan diproses lebih lanjut.
+
+5.  **Penandatanganan Surat Izin Dekan:** Dekan akan menandatangani Surat Izin Dekan.
+
+6.  **Pemberian Nomor Surat:** Subbag Sumber Daya akan memberi nomor pada surat izinmu dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+
+7.  **Update Status dan Pengiriman Surat:** Subbag Akademik dan Kemahasiswaan akan memperbarui status mahasiswamu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkan surat tersebut kepadamu.
+
+8.  **Pengambilan Surat Izin:** Terakhir, kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.96 detik*",7103.79,1
+2025-11-09T21:02:48.163962,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2125.85,1
+2025-11-09T21:03:27.945539,web-user,kalau mau cuti akademik bagaimana mengurusnya,tanya_cuti_akademik,0.9686346054077148,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur pengurusan cuti akademik agar kamu bisa mengikutinya dengan mudah. 😊
+
+Untuk mengajukan cuti akademik, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Siapkan Dokumen dan Isi Form:**
+    *   Pertama, kamu perlu mengunduh dan mengisi Form Cuti Akademik. Jangan lupa untuk menandatanganinya ya.
+    *   Selain itu, kamu juga wajib mengisi permohonan secara online melalui sistem SIAP.
+    *   Dokumen-dokumen yang perlu kamu lampirkan adalah:
+        *   Form Cuti Akademik
+        *   Transkrip Akademik
+        *   Bukti pembayaran SPP/UKT terakhir
+        *   Fotokopi Kartu Tanda Mahasiswa (KTM)
+        *   Dokumen pendukung lain (jika ada)
+    *   Kamu bisa mengunduh Form Cuti Akademik di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+
+2.  **Minta Persetujuan Ketua Program Studi:**
+    *   Setelah form terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+
+3.  **Serahkan Form ke Dekan:**
+    *   Kemudian, serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nanti akan ada proses disposisi ke Subbagian Akademik dan Kemahasiswaan.
+
+4.  **Pemeriksaan oleh Subbag Akademik dan Kemahasiswaan:**
+    *   Subbagian Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratanmu. Jika semua sudah lengkap, form akan diberi paraf dan diproses lebih lanjut.
+
+5.  **Penandatanganan Surat Izin Dekan:**
+    *   Dekan akan menandatangani Surat Izin Dekan.
+
+6.  **Pemberian Nomor Surat:**
+    *   Subbagian Sumber Daya akan memberi nomor pada surat izinmu dan mengirimkannya ke Subbagian Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+
+7.  **Update Status dan Pengiriman Surat:**
+    *   Subbagian Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+
+8.  **Pengambilan Surat Izin:**
+    *   Terakhir, kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal 3 (tiga) hari kerja. Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.28 detik*",8431.64,1
+2025-11-09T21:03:50.760325,web-user,bagaimana cara pengajuan proposal ormawa,tanya_proposal_organisasi,0.9350957870483398,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan bagaimana cara mengajukan proposal kegiatan organisasi mahasiswa (Ormawa).
+
+Berdasarkan Standar Operasional Prosedur (SOP) yang ada, berikut langkah-langkahnya:
+
+1.  **Serahkan Proposal:** Kamu bisa menyerahkan proposal kegiatan organisasimu ke petugas kemahasiswaan dan Supervisor Akademik. Ini untuk proses registrasi dan juga alokasi ruang jika kegiatanmu akan dilaksanakan di Fakultas Sains dan Matematika (FSM).
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Verifikasi Proposal:** Nantinya, Supervisor Akademik dan Kemahasiswaan akan meneliti serta memverifikasi proposalmu agar sesuai dengan peraturan yang berlaku, lalu akan memberikan paraf.
+3.  **Evaluasi Substansi:** Setelah itu, Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi atau isi dari proposal kegiatanmu.
+4.  **Pengesahan:** Jika sudah sesuai, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposalmu.
+5.  **Ambil Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan yang sudah disetujui tersebut.
+
+Seluruh proses ini diperkirakan memiliki waktu pemrosesan maksimal 3 (tiga) hari kerja, lho. Jadi, pastikan kamu menyiapkan proposalnya dengan baik ya!
+
+Semoga informasinya membantu! 😊
+
+⏱️ *Waktu respons: 3.82 detik*",5980.96,1
+2025-11-09T21:04:00.620968,web-user,Link Formulir:,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2131.05,1
+2025-11-09T21:05:14.467815,web-user,Halo chatbot FSM!,pembuka,0.998610258102417,Selamat datang! Aku siap bantu info layanan akademik 😊.,24.19,1
+2025-11-09T21:05:35.869757,web-user,Apa itu IRS dan kapan pengisiannya?,tanya_irs,0.946152925491333,"Halo! 👋 Tentu, saya bantu jelaskan ya.
+
+IRS itu singkatan dari **Isian Rencana Studi**. Ini adalah formulir atau proses di mana kamu mengisi, memperbaiki, atau mencetak rencana mata kuliah yang akan kamu ambil di semester berjalan secara online melalui SIAP.
+
+Untuk waktu pengisiannya, berdasarkan prosedur yang ada, pengisian IRS dilakukan setelah kamu:
+1.  Membayar biaya pendidikan (SPP/UKT) pada bank yang bekerja sama dengan Undip.
+2.  Melakukan her-registrasi online melalui SIAP.
+
+Setelah kedua langkah tersebut, barulah kamu bisa mengisi IRS. Proses ini juga melibatkan konsultasi dengan Pembimbing Akademikmu untuk memastikan mata kuliah dan jumlah SKS sudah sesuai.
+
+Semoga informasinya membantu ya! 😊
+
+⏱️ *Waktu respons: 4.93 detik*",7100.05,1
+2025-11-09T21:06:06.410543,web-user,Halo chatbot FSM!,pembuka,0.998610258102417,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,24.63,1
+2025-11-09T21:06:13.033755,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2144.04,1
+2025-11-09T21:06:24.317622,web-user,Terima kasih!,terima_kasih,0.9989602565765381,"Dengan senang hati! Kalau ada pertanyaan lain, tinggal tanya ya. 🙂",28.60,1
+2025-11-09T21:06:35.383085,web-user,Halo chatbot FSM!,pembuka,0.998610258102417,Hai! 👋 Saya chatbot layanan akademik FSM. Ada yang bisa kubantu hari ini?,26.81,1
+2025-11-09T21:07:22.949185,web-user,aku ingin melakukan  Izin Terlambat Bayar UKT bagaimana caranya,tanya_izin_terlambat_bayar_ukt,0.9917363524436951,"Halo! 👋 Tentu saja, saya siap membantu menjelaskan prosedur untuk permohonan izin keterlambatan pembayaran UKT.
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Permohonan Keterlambatan Pembayaran UKT. Jangan lupa untuk melampirkan persyaratan yang dibutuhkan ya.
+    *   Kamu bisa mengunduh formulirnya di sini: [https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/](https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/)
+2.  **Minta Tanda Tangan:** Setelah formulir terisi, mintalah tanda tangan dari dosen walimu, serta persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan Formulir:** Kemudian, serahkan Form Permohonan Keterlambatan UKT yang sudah ditandatangani dan disetujui tersebut kepada Supervisor Sumber Daya.
+4.  **Pemeriksaan Dokumen:** Supervisor Sumber Daya akan menerima, memeriksa, dan meneliti kelengkapan persyaratan formulirmu, lalu memberikan paraf.
+5.  **Pemrosesan Surat:** Wakil Dekan Sumber Daya akan memproses Surat Permohonan Izin Keterlambatan Pembayaran UKT.
+6.  **Penandatanganan Surat:** Wakil Dekan Sumber Daya akan menandatangani Surat Permohonan Izin Keterlambatan Pembayaran UKT.
+7.  **Pemrosesan Lanjutan:** Subbag Sumber Daya akan memproses Surat Permohonan Keterlambatan Pembayaran UKT.
+8.  **Menghadap Wakil Rektor II:** Kamu perlu membawa Surat Permohonan Keterlambatan Pembayaran UKT tersebut kepada Wakil Rektor II melalui Manajer Akademik.
+9.  **Disposisi ke Direktorat Keuangan:** Wakil Rektor II akan mendisposisikan suratmu ke Direktorat Keuangan untuk memproses pembayaran UKT.
+10. **Pembukaan Sistem Pembayaran:** Bendahara Penerimaan UKT akan membuka sistem pembayaran untukmu.
+11. **Pembayaran UKT:** Terakhir, kamu bisa membayar biaya UKT ke bank.
+
+Seluruh proses ini diperkirakan memiliki waktu pemrosesan maksimal 3 (tiga) hari kerja.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.30 detik*",8423.74,1
+2025-11-09T21:09:01.146610,web-user,Izin Terlambat Bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9959942102432251,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2140.72,1
+2025-11-09T21:09:22.012524,web-user,Izin Aktif Kuliah Setelah Cuti,tanya_izin_aktif_setelah_cuti,0.9987169504165649,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2131.01,1
+2025-11-09T21:09:33.976611,web-user,Layanan Akademik yang Tersedia,tanya_layanan_akademik,0.9836898446083069,"Layanan Akademik yang Tersedia:
+• Cuti Akademik
+• Legalisir Ijazah & Transkrip
+• Proposal Kegiatan Organisasi
+• Rekomendasi Beasiswa
+• Pengisian IRS (Isian Rencana Studi)
+• Izin Aktif Setelah Cuti
+• Izin Keterlambatan Bayar UKT
+👉 Pilih layanan yang ingin kamu tanyakan, ya.
+",2147.35,1
+2025-11-09T21:09:44.918882,web-user,apa ajasi layanan yang tersedia,tanya_layanan_akademik,0.9951254725456238,"Layanan Akademik yang Tersedia:
+• Cuti Akademik
+• Legalisir Ijazah & Transkrip
+• Proposal Kegiatan Organisasi
+• Rekomendasi Beasiswa
+• Pengisian IRS (Isian Rencana Studi)
+• Izin Aktif Setelah Cuti
+• Izin Keterlambatan Bayar UKT
+👉 Pilih layanan yang ingin kamu tanyakan, ya.
+",2126.91,1
+2025-11-09T21:10:30.626703,web-user,"Saya ingin izin terlambat bayar UKT, apa syarat dan formulirnya?",tanya_izin_terlambat_bayar_ukt,0.9811272025108337,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2127.31,1
+2025-11-09T21:22:09.131699,web-user,Halo chatbot FSM!,pembuka,0.998610258102417,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,25.46,1
+2025-11-09T21:22:17.825367,web-user,Layanan Akademik yang Tersedia,tanya_layanan_akademik,0.9836898446083069,"Layanan Akademik yang Tersedia:
+• Cuti Akademik
+• Legalisir Ijazah & Transkrip
+• Proposal Kegiatan Organisasi
+• Rekomendasi Beasiswa
+• Pengisian IRS (Isian Rencana Studi)
+• Izin Aktif Setelah Cuti
+• Izin Keterlambatan Bayar UKT
+👉 Pilih layanan yang ingin kamu tanyakan, ya.
+",2134.41,1
+2025-11-09T21:22:28.076581,web-user,Izin Terlambat Bayar UKT,tanya_izin_terlambat_bayar_ukt,0.9959942102432251,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2131.18,1
+2025-11-09T21:22:37.012914,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2120.50,1
+2025-11-09T21:22:45.189711,web-user,Izin Aktif Kuliah Setelah Cuti,tanya_izin_aktif_setelah_cuti,0.9987169504165649,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2156.90,1
+2025-11-09T21:22:54.448170,web-user,iya mau,pembuka,0.9913047552108765,Selamat datang! Aku siap bantu info layanan akademik 😊.,28.96,1
+2025-11-09T21:23:48.164594,web-user,Berapa lama proses legalisir dokumen FSM?,tanya_legalisir,0.9001362323760986,"Halo! 👋 Senang sekali bisa membantu.
+
+Berdasarkan Standar Operasional Prosedur (SOP) Legalisir Ijazah dan Transkrip, total waktu maksimal untuk proses legalisir dokumen di Fakultas Sains dan Matematika adalah **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! 😊
+
+⏱️ *Waktu respons: 2.36 detik*",4513.02,1
+2025-11-09T21:24:00.377332,web-user,"Saya ingin izin terlambat bayar UKT, apa syarat dan formulirnya?",tanya_izin_terlambat_bayar_ukt,0.9811272025108337,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+👉 Butuh contoh surat & daftar lampiran?
+",2151.52,1
+2025-11-09T21:24:27.801772,web-user,Apa itu surat rekomendasi beasiswa dan siapa yang menandatangani?,tanya_rekomendasi_beasiswa,0.9743261337280273,"Halo! 👋 Tentu, saya bantu jelaskan ya mengenai Surat Rekomendasi Beasiswa.
+
+Berdasarkan dokumen Standar Operasional Prosedur (SOP) yang ada, **Surat Rekomendasi Beasiswa** adalah dokumen resmi yang dikeluarkan oleh Fakultas Sains dan Matematika untuk merekomendasikan mahasiswa dalam pengajuan beasiswa. Dokumen ini berisi persetujuan dan dukungan dari fakultas agar kamu bisa mendapatkan beasiswa yang kamu ajukan.
+
+Untuk penandatanganan surat rekomendasi ini, yang akan memberikan tanda tangan adalah **Wakil Dekan Akademik dan Kemahasiswaan**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.62 detik*",6843.37,1
+2025-11-09T21:24:48.648538,web-user,Bagaimana prosedur pengajuan beasiswa internal FSM?,tanya_rekomendasi_beasiswa,0.9904314875602722,"Halo! 👋 Terima kasih sudah bertanya kepada SIMA-BOT.
+
+Berdasarkan dokumen resmi yang saya miliki saat ini, informasi mengenai prosedur pengajuan beasiswa internal Fakultas Sains dan Matematika (FSM) secara spesifik belum tersedia ya 🙏.
+
+Namun, saya memiliki informasi mengenai **Standar Operasional Prosedur (SOP) Surat Pengajuan Rekomendasi Beasiswa**. Mungkin ini bisa menjadi salah satu langkah awal yang kamu butuhkan untuk pengajuan beasiswa. Prosedurnya adalah sebagai berikut:
+
+1.  **Mahasiswa mengunduh dan mengisi formulir/Surat Rekomendasi Pengajuan Beasiswa** ke Subbag Akademik dan Kemahasiswaan (BAK) Fakultas. Kamu bisa mengunduh formulirnya di link ini: [https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing](https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing). Jangan lupa siapkan Kartu Hasil Studi (KHS) yang sudah dilegalisir ya. Proses ini diperkirakan memakan waktu sekitar 30 menit.
+2.  **BAK Fakultas akan meneliti dan memverifikasi** surat rekomendasi yang kamu ajukan. Waktu yang dibutuhkan sekitar 1 hari.
+3.  Setelah itu, **BAK Fakultas akan memberikan paraf dan nomor surat** pada surat rekomendasi tersebut. Proses ini sekitar 10 menit.
+4.  **Wakil Dekan Akademik dan Kemahasiswaan akan memberikan tanda tangan** pada surat rekomendasi tersebut. Ini membutuhkan waktu sekitar 2 hari.
+5.  Terakhir, **kamu bisa mengambil surat rekomendasi tersebut di BAK Fakultas** dan mencatat bukti pengambilannya. Proses ini sekitar 5 menit.
+
+Total waktu pemrosesan untuk mendapatkan surat rekomendasi ini maksimal 3 hari kerja dan 45 menit waktu kerja.
+
+Jika kamu mencari informasi lebih lanjut tentang beasiswa internal FSM secara keseluruhan, mungkin kamu bisa langsung menghubungi Subbagian Akademik dan Kemahasiswaan (BAK) Fakultas Sains dan Matematika ya. Mereka pasti akan dengan senang hati membantu! 😊
+
+⏱️ *Waktu respons: 8.64 detik*",10787.90,1
+2025-11-09T21:29:40.759069,web-user,gimana sih cara ngajuin rekomendasi beasiswa aku soalnya mau daftar beasiswa X,tanya_rekomendasi_beasiswa,0.9947891235351562,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan bagaimana cara mengajukan surat rekomendasi beasiswa. 😊
+
+Berdasarkan Standar Operasional Prosedur (SOP) yang ada, berikut adalah langkah-langkah yang bisa kamu ikuti untuk mengajukan surat rekomendasi beasiswa:
+
+1.  **Unduh dan Isi Formulir:** Pertama-tama, kamu bisa mengunduh dan mengisi formulir atau Surat Rekomendasi Pengajuan Beasiswa. Formulirnya bisa kamu dapatkan di Subbagian Akademik dan Kemahasiswaan (BAK) Fakultas, atau langsung unduh melalui link ini: [https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing](https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing). Jangan lupa siapkan juga **Kartu Hasil Studi (KHS) yang sudah dilegalisir** ya. Proses ini diperkirakan memakan waktu sekitar 30 menit.
+2.  **Verifikasi Dokumen:** Setelah kamu menyerahkan formulir dan KHS yang sudah diisi, BAK Fakultas akan meneliti dan memverifikasi kelengkapan serta keabsahan dokumenmu. Proses ini biasanya memakan waktu sekitar 1 hari.
+3.  **Paraf dan Nomor Surat:** Selanjutnya, BAK Fakultas akan memberikan paraf dan nomor surat pada Surat Rekomendasi Pengajuan Beasiswa tersebut. Ini memakan waktu sekitar 10 menit.
+4.  **Tanda Tangan Wakil Dekan:** Setelah itu, Wakil Dekan Akademik dan Kemahasiswaan akan memberikan tanda tangan pada surat rekomendasi. Proses ini membutuhkan waktu sekitar 2 hari.
+5.  **Pengambilan Surat:** Terakhir, kamu bisa mengambil surat rekomendasi yang sudah jadi di BAK Fakultas. Jangan lupa untuk mencatat bukti pengambilan ya. Proses ini diperkirakan hanya memakan waktu sekitar 5 menit.
+
+Total waktu pemrosesan maksimal untuk mendapatkan surat rekomendasi beasiswa ini adalah **3 hari 45 menit waktu kerja**.
+
+Semoga informasinya membantu dan sukses untuk pendaftaran beasiswa X-nya ya! Kalau ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.61 detik*",6759.60,1
+2025-11-09T21:30:11.100217,web-user,Bagaimana prosedur pengajuan beasiswa internal FSM?,tanya_rekomendasi_beasiswa,0.9904314875602722,"Halo! 👋 Terima kasih sudah bertanya.
+
+Berdasarkan dokumen resmi kampus yang saya miliki saat ini, informasi mengenai prosedur pengajuan beasiswa internal Fakultas Sains dan Matematika (FSM) secara spesifik belum tersedia. 🙏
+
+Namun, saya menemukan Standar Operasional Prosedur (SOP) untuk **Surat Pengajuan Rekomendasi Beasiswa**. SOP ini menjelaskan langkah-langkah untuk mendapatkan surat rekomendasi beasiswa, yang mungkin menjadi salah satu dokumen yang dibutuhkan dalam pengajuan beasiswa secara umum. Prosesnya adalah sebagai berikut:
+
+1.  **Mahasiswa mengunduh dan mengisi formulir/Surat Rekomendasi Pengajuan Beasiswa** ke Subbag Akademik dan Kemahasiswaan (BAK) Fakultas.
+    *   **Waktu:** ±30 menit
+    *   **Dokumen yang dibutuhkan:** Surat Rekomendasi Beasiswa dan KHS yang dilegalisir.
+    *   **Link unduh formulir:** [https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing](https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing)
+2.  **BAK Fakultas meneliti dan memverifikasi** Surat Rekomendasi Pengajuan Beasiswa.
+    *   **Waktu:** ±1 hari
+3.  **BAK Fakultas memberikan paraf dan nomor surat** pada Surat Rekomendasi Pengajuan Beasiswa tersebut.
+    *   **Waktu:** ±10 menit
+4.  **Wakil Dekan Akademik dan Kemahasiswaan memberikan tanda tangan** pada Surat Rekomendasi Pengajuan Beasiswa tersebut.
+    *   **Waktu:** ±2 hari
+5.  **Mahasiswa mengambil surat tersebut** di BAK Fakultas dan mencatat bukti pengambilan.
+    *   **Waktu:** ±5 menit
+
+Total waktu pemrosesan maksimal untuk mendapatkan surat rekomendasi ini adalah 3 hari 45 menit waktu kerja.
+
+Mohon diingat, SOP di atas adalah untuk mendapatkan surat rekomendasi beasiswa, bukan prosedur lengkap pengajuan beasiswa internal FSM itu sendiri. Jika ada pertanyaan lain terkait informasi akademik yang tersedia, jangan ragu untuk bertanya ya! 😊
+
+⏱️ *Waktu respons: 7.62 detik*",9752.47,1
+2025-11-09T21:30:20.966188,web-user,gimana sih cara ngajuin rekomendasi beasiswa aku soalnya mau daftar beasiswa X,tanya_rekomendasi_beasiswa,0.9947891235351562,"Halo! 👋 Tentu saja, SIMA-BOT siap bantu kamu. Untuk mengajukan surat rekomendasi beasiswa, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu bisa mengunduh dan mengisi formulir Surat Rekomendasi Pengajuan Beasiswa. Formulirnya bisa kamu dapatkan di sini: [https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing](https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing). Jangan lupa siapkan juga Kartu Hasil Studi (KHS) yang sudah dilegalisir, ya. Proses ini kira-kira membutuhkan waktu sekitar 30 menit.
+2.  **Verifikasi Dokumen:** Setelah itu, Subbagian Akademik dan Kemahasiswaan (BAK) Fakultas akan meneliti dan memverifikasi surat pengajuan beasiswa kamu. Tahap ini membutuhkan waktu sekitar 1 hari.
+3.  **Paraf dan Nomor Surat:** BAK Fakultas akan memberikan paraf dan nomor surat pada surat rekomendasi beasiswa kamu. Ini akan memakan waktu sekitar 10 menit.
+4.  **Tanda Tangan Wakil Dekan:** Selanjutnya, Wakil Dekan Akademik dan Kemahasiswaan akan memberikan tanda tangan pada surat rekomendasi tersebut. Proses ini biasanya membutuhkan waktu sekitar 2 hari.
+5.  **Pengambilan Surat:** Terakhir, kamu bisa mengambil surat rekomendasi beasiswa yang sudah jadi di BAK Fakultas. Jangan lupa untuk mencatat bukti pengambilannya, ya. Tahap ini hanya sekitar 5 menit.
+
+Secara keseluruhan, total waktu pemrosesan maksimal untuk mendapatkan surat rekomendasi beasiswa ini adalah 3 hari kerja ditambah sekitar 45 menit.
+
+Semoga informasinya membantu dan sukses untuk pendaftaran beasiswanya, ya! 😊
+
+⏱️ *Waktu respons: 5.13 detik*",7264.48,1
+2025-11-09T21:30:36.961759,web-user,gimana sih cara ngajuin rekomendasi beasiswa aku soalnya mau daftar beasiswa X,tanya_rekomendasi_beasiswa,0.9947891235351562,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan langkah-langkah untuk mengajukan surat rekomendasi beasiswa. 😊
+
+Berdasarkan Standar Operasional Prosedur (SOP) yang ada, berikut adalah langkah-langkahnya:
+
+1.  **Unduh dan Isi Formulir:** Kamu bisa mengunduh dan mengisi formulir atau Surat Rekomendasi Pengajuan Beasiswa. Formulir ini nanti akan diajukan ke Subbagian Akademik dan Kemahasiswaan (BAK) Fakultas.
+    *   **Waktu:** Sekitar 30 menit.
+    *   **Dokumen yang dibutuhkan:** Surat Rekomendasi Beasiswa dan Kartu Hasil Studi (KHS) yang sudah dilegalisir.
+    *   **Link unduh formulir:** [https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing](https://drive.google.com/file/d/18f_nbPXHbElgRNoplDFQVNYGGDkFxBTT/view?usp=sharing)
+2.  **Verifikasi Dokumen oleh BAK Fakultas:** Setelah kamu menyerahkan, BAK Fakultas akan meneliti dan memverifikasi surat pengajuan rekomendasi beasiswa kamu.
+    *   **Waktu:** Sekitar 1 hari.
+3.  **Paraf dan Nomor Surat:** BAK Fakultas akan memberikan paraf dan nomor pada surat rekomendasi tersebut.
+    *   **Waktu:** Sekitar 10 menit.
+4.  **Tanda Tangan Wakil Dekan:** Wakil Dekan Akademik dan Kemahasiswaan akan memberikan tanda tangan pada Surat Rekomendasi Pengajuan Beasiswa.
+    *   **Waktu:** Sekitar 2 hari.
+5.  **Pengambilan Surat:** Setelah semua proses selesai, kamu bisa mengambil surat tersebut di BAK Fakultas dan jangan lupa untuk mencatat bukti pengambilannya ya.
+    *   **Waktu:** Sekitar 5 menit.
+
+Total waktu pemrosesan maksimal untuk mendapatkan surat rekomendasi beasiswa ini adalah **3 hari 45 menit waktu kerja**.
+
+Semoga informasinya membantu dan sukses untuk pendaftaran beasiswanya ya! 😊
+
+⏱️ *Waktu respons: 4.82 detik*",6976.07,1
+2025-11-09T21:32:41.502367,web-user,berapa lama proses pengajuan cuti akademik?,tanya_waktu_proses,0.9519282579421997,"Halo! 👋 Tentu, saya akan bantu informasikan mengenai durasi proses pengajuan cuti akademik.
+
+Berdasarkan dokumen Standar Operasional Prosedur (SOP) Permohonan Izin Cuti Akademik, total maksimal waktu pemrosesan untuk memperoleh izin cuti akademik adalah **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! 😊
+
+⏱️ *Waktu respons: 2.41 detik*",4566.48,1
+2025-11-09T21:33:17.570926,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2156.35,1
+2025-11-10T08:12:17.529204,web-user,halo chatbot fsm,pembuka,0.9986417889595032,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,834.20,1
+2025-11-10T08:12:31.802924,web-user,layanan akademik yang tersedia,tanya_layanan_akademik,0.9834966659545898,"Layanan Akademik yang Tersedia:
+• Cuti Akademik
+• Legalisir Ijazah & Transkrip
+• Proposal Kegiatan Organisasi
+• Rekomendasi Beasiswa
+• Pengisian IRS (Isian Rencana Studi)
+• Izin Aktif Setelah Cuti
+• Izin Keterlambatan Bayar UKT
+👉 Pilih layanan yang ingin kamu tanyakan, ya.
+",2724.23,1
+2025-11-10T08:12:51.179362,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2308.23,1
+2025-11-10T08:13:12.669763,web-user,Izin aktif kuliah setelah cuti,tanya_izin_aktif_setelah_cuti,0.9987338185310364,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2276.09,1
+2025-11-10T08:40:08.193206,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,60.55,1
+2025-11-10T08:40:33.650687,web-user,Link Formulir,tanya_link_form,0.9991621971130371,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2303.83,1
+2025-11-10T09:00:12.260984,web-user,kontak layanan,tanya_kontak,0.9793055653572083,"Kontak Layanan Akademik FSM:
+• Subbag Akademik & Kemahasiswaan
+• Telp: (024) 747 4754
+• Email: akademikfsm@live.undip.ac.id
+Jam layanan: Senin–Jumat 08.00–16.00 WIB
+",2301.74,1
+2025-11-18T11:51:58.881177,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,384.05,1
+2025-11-18T12:04:42.414154,web-user,halo,pembuka,0.9999055862426758,Selamat datang! Aku siap bantu info layanan akademik 😊.,423.24,1
+2025-11-18T12:04:49.856164,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,27.06,1
+2025-11-18T14:41:37.628076,web-user,halo,pembuka,0.9999055862426758,Selamat datang! Aku siap bantu info layanan akademik 😊.,772.59,1
+2025-11-18T14:41:42.836163,web-user,hai,pembuka,0.9998810291290283,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,63.79,1
+2025-11-24T11:19:08.332271,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,448.00,1
+2025-11-24T11:59:02.360360,web-user,hai,pembuka,0.9998810291290283,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,55.43,1
+2025-11-24T12:13:56.352789,web-user,Prosedur Cuti Akademik,tanya_cuti_akademik,0.9963986873626709,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2687.65,1
+2025-11-24T12:14:13.096731,web-user,link formulir prosedur cuti akadmik,tanya_link_form,0.984887957572937,"Link Formulir:
+• Form Cuti Akademik:
+  https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit
+• Form Rekomendasi Beasiswa:
+  https://drive.google.com/file/d/18f_nbpXHbElgRNoplDFQVNYGGDkFxBTT/view
+• Form Keterlambatan Pembayaran UKT:
+  https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/
+👉 Perlu aku kirim juga syarat & contoh pengisian?
+",2146.60,1
+2025-11-24T12:23:41.433812,web-user,hi,pembuka,0.9982879757881165,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,38.39,1
+2025-11-24T12:26:49.055444,web-user,halo,pembuka,0.9999055862426758,Selamat datang! Aku siap bantu info layanan akademik 😊.,332.52,1
+2025-11-25T09:14:08.110352,web-user,halo,pembuka,0.9999055862426758,Selamat datang! Aku siap bantu info layanan akademik 😊.,677.49,1
+2025-11-25T09:14:32.772734,web-user,prosedur legalisir ijazah,tanya_legalisir,0.9987797141075134,"Halo! 👋 Tentu saja, saya akan bantu jelaskan prosedur legalisir ijazah dan transkrip kamu. Proses ini dirancang agar mudah diikuti dan biasanya memakan waktu maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Menyerahkan Berkas:** Pertama, kamu bisa menyerahkan fotokopi ijazah, transkrip nilai, atau sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas di Subbagian Akademik dan Kemahasiswaan.
+    *   **Waktu:** Sekitar 5 menit.
+    *   **Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir (fotokopi dan asli).
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+    *   **Waktu:** Sekitar 10 menit.
+3.  **Paraf Supervisor:** Selanjutnya, Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+    *   **Waktu:** Sekitar 15 menit.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+    *   **Waktu:** Sekitar 1 hari.
+5.  **Pemberian Stempel Fakultas:** Setelah ditandatangani, petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir tersebut dan memberikan stempel Fakultas Sains dan Matematika.
+    *   **Waktu:** Sekitar 5 menit.
+6.  **Pengambilan Legalisir:** Terakhir, kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+    *   **Waktu:** Sekitar 15 menit.
+
+Total waktu pemrosesan maksimal adalah 3 hari kerja. Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.25 detik*",7613.21,1
+2025-11-25T09:14:59.033911,web-user,bagaimana langkah-langkah mengajukan prosedur legalisir ijazah,tanya_legalisir,0.9952535629272461,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk mengajukan legalisir ijazah. Proses ini dirancang agar mudah diikuti dan total waktu pemrosesannya maksimal 3 hari kerja, lho. 😊
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Serahkan Dokumen:** Pertama-tama, Anda sebagai alumni perlu menyerahkan fotokopi ijazah (atau transkrip nilai/sertifikat akreditasi program studi) beserta dokumen aslinya kepada petugas di Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli Anda, lalu memberikan cap.
+3.  **Paraf Supervisor:** Selanjutnya, Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Terakhir, Anda bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen asli Anda. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+
+Semoga informasi ini membantu Anda! Jika ada pertanyaan lain, jangan sungkan untuk bertanya lagi. 😊
+
+⏱️ *Waktu respons: 4.43 detik*",6702.62,1
+2025-11-25T09:15:38.795391,web-user,Legalisir Ijazah/Transkrip,tanya_legalisir,0.9986329674720764,"Halo! 👋 Tentu, saya akan bantu jelaskan prosedur legalisir ijazah dan transkrip, ya.
+
+Untuk legalisir ijazah atau transkrip, prosesnya maksimal 3 (tiga) hari kerja. Berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Menyerahkan Berkas:** Kamu bisa menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan. (Waktu: ±5 menit)
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap. (Waktu: ±10 menit)
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan. (Waktu: ±15 menit)
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"". (Waktu: ±1 hari)
+5.  **Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika. (Waktu: ±5 menit)
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya, serta menulis di buku pengambilan dan menandatanganinya. (Waktu: ±15 menit)
+
+Semoga informasinya membantu, ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.85 detik*",6159.36,1
+2025-11-25T09:15:59.094382,web-user,Legalisir Ijazah/Transkrip,tanya_legalisir,0.9986329674720764,"Halo! 👋 Tentu, saya siap bantu menjelaskan prosedur legalisir ijazah atau transkrip.
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi program studi, prosesnya cukup mudah dan cepat kok. Total waktu pemrosesan maksimal adalah **3 hari kerja**.
+
+Berikut langkah-langkah yang perlu kamu ikuti:
+
+1.  **Serahkan Dokumen:** Kamu bisa menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberi paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Terakhir, kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya dan menandatangani buku pengambilan.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.57 detik*",6897.24,1
+2025-11-25T09:16:27.149401,web-user,formulir rekomendasi beasiswa,tanya_rekomendasi_beasiswa,0.9689831137657166,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+👉 Mau contoh surat & syarat minimum IPK?
+",2278.52,1
+2025-11-25T09:16:47.020383,web-user,kalau mau cuti akademik gimana caranya,tanya_cuti_akademik,0.9827143549919128,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2292.91,1
+2025-11-25T09:17:00.226300,web-user,Legalisir Ijazah/Transkrip,tanya_legalisir,0.9986329674720764,"Halo! 👋 Tentu, saya akan bantu jelaskan prosedur legalisir ijazah atau transkrip nilai ya.
+
+Untuk melakukan legalisir ijazah atau transkrip nilai, berikut adalah langkah-langkah yang perlu Bapak/Ibu/Saudara/i ikuti:
+
+1.  **Penyerahan Dokumen:** Bapak/Ibu/Saudara/i sebagai alumni dapat menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, kemudian memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Dokumen:** Bapak/Ibu/Saudara/i dapat mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen asli, serta menulis dan menandatangani di buku pengambilan.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.72 detik*",7053.18,1
+2025-11-25T09:17:23.903042,web-user,kalo ngisi irs gmn,tanya_irs,0.9754108190536499,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan langkah-langkah untuk mengisi Isian Rencana Studi (IRS) kamu. Proses ini dirancang agar mudah diikuti dan biasanya membutuhkan waktu pemrosesan maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Bayar Biaya Pendidikan:** Pertama-tama, kamu perlu membayar biaya pendidikan (SPP/UKT) di bank yang bekerja sama dengan Undip (seperti BNI, Mandiri, BTN, atau BRI). Setelah itu, pastikan kamu menyimpan bukti pembayarannya ya.
+2.  **Her-registrasi Online:** Selanjutnya, lakukan her-registrasi secara online melalui sistem SIAP.
+3.  **Isi atau Perbaiki IRS di SIAP:** Setelah her-registrasi, kamu bisa mulai mengisi, memperbaiki, atau bahkan mencetak IRS sementara secara online juga melalui SIAP.
+4.  **Konsultasi dengan Pembimbing Akademik:** Ini bagian penting! Temui Pembimbing Akademik (PA) kamu untuk berkonsultasi mengenai mata kuliah yang akan kamu ambil. Beliau akan memberikan arahan dengan mempertimbangkan jumlah SKS maksimal yang bisa kamu ambil di semester tersebut.
+5.  **Persetujuan Pembimbing Akademik:** Jika mata kuliah dan jumlah SKS sudah sesuai dan disepakati, Pembimbing Akademik kamu akan memberikan persetujuan secara online melalui SIAP.
+6.  **Cek IRS Online:** Terakhir, kamu bisa melakukan pengecekan IRS online di sistem SIAP kapan saja jika diperlukan untuk memastikan semuanya sudah benar.
+
+Semoga informasi ini membantu kamu dalam mengisi IRS ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.65 detik*",6957.28,1
+2025-11-26T09:43:54.799234,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,743.76,1
+2025-12-05T20:09:18.431768,web-user,"Halo, selamat pagi",pembuka,0.9997324347496033,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,1068.99,1
+2025-12-05T20:11:32.423580,web-user,hai,pembuka,0.9998810291290283,Hai! 👋 Saya chatbot layanan akademik FSM. Ada yang bisa kubantu hari ini?,62.10,1
+2025-12-06T12:09:04.796263,web-user,legalisir ijazah,tanya_legalisir,0.9985275268554688,"Halo! Tentu saja, saya siap membantu. 😊
+
+Untuk proses legalisir ijazah (atau transkrip nilai/sertifikat akreditasi program studi), kamu bisa mengikuti langkah-langkah berikut ini:
+
+**Prosedur Legalisir Ijazah dan Transkrip:**
+
+1.  **Penyerahan Dokumen:** Kamu (sebagai alumni) menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+    *   **Waktu:** Sekitar 5 menit.
+    *   **Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir.
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+    *   **Waktu:** Sekitar 10 menit.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+    *   **Waktu:** Sekitar 15 menit.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+    *   **Waktu:** Sekitar 1 hari.
+5.  **Pemberian Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+    *   **Waktu:** Sekitar 5 menit.
+6.  **Pengambilan Dokumen:** Kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya, serta menulis di buku pengambilan dan menandatanganinya.
+    *   **Waktu:** Sekitar 15 menit.
+
+**Total waktu pemrosesan maksimal untuk legalisir ini adalah 3 (tiga) hari kerja.**
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.42 detik*",8034.23,1
+2025-12-06T12:09:25.027083,web-user,coba bantu aku cari informasi terkait legalisir ijazah,tanya_legalisir,0.9746255278587341,"Halo! 👋 Tentu saja, saya siap membantu kamu mencari informasi terkait legalisir ijazah. Berdasarkan dokumen SOP yang ada, berikut adalah langkah-langkah untuk melakukan legalisir ijazah dan transkrip:
+
+**Proses Legalisir Ijazah dan Transkrip:**
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi program studi, kamu bisa mengikuti langkah-langkah berikut:
+
+1.  **Penyerahan Berkas:** Alumni menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+    *   **Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir (fotokopi ijazah/transkrip/sertifikat akreditasi dan dokumen aslinya).
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Penandatanganan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel Fakultas:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Alumni dapat mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya, serta menulis di buku pengambilan dan menandatanganinya.
+
+**Waktu Pemrosesan:**
+Total waktu pemrosesan maksimal untuk legalisir ini adalah **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.23 detik*",6363.81,1
+2025-12-06T12:09:39.415542,web-user,langkah-langkah untuk melakukan legalisir ijazah dan transkrip,tanya_legalisir,0.997364342212677,"Halo! 👋 Tentu, saya siap bantu. Untuk proses legalisir ijazah dan transkrip, berikut adalah langkah-langkah yang perlu kamu ikuti berdasarkan Standar Operasional Prosedur (SOP) kami:
+
+1.  **Serahkan Dokumen:** Kamu bisa menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"". Proses ini membutuhkan waktu sekitar 1 hari.
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Terakhir, kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya dan menulis di buku pengambilan serta menandatangani bukti pengambilan.
+
+Seluruh proses ini diperkirakan memakan waktu maksimal 3 (tiga) hari kerja.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.60 detik*",5743.81,1
+2025-12-06T12:10:51.827229,web-user,"hai iyanih aku mau tanya soal legalisir ijazah sama transkrip, gimana ya caranya",tanya_legalisir,0.9912652373313904,"Halo! 👋 Tentu saja, SIMA-BOT siap membantu. Untuk legalisir ijazah dan transkrip, prosesnya cukup mudah kok. Berikut langkah-langkah yang bisa kamu ikuti:
+
+1.  **Menyerahkan Berkas:** Kamu bisa datang ke Subbag Akademik dan Kemahasiswaan dengan membawa fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi yang ingin dilegalisir, beserta dokumen aslinya ya. Ini untuk memastikan keabsahan dokumenmu.
+2.  **Pemeriksaan Dokumen:** Petugas Subbag Akademik dan Kemahasiswaan akan memeriksa kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf.
+4.  **Tanda Tangan Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pengesahan pada dokumenmu.
+5.  **Pemberian Stempel:** Setelah ditandatangani, petugas akan mengambil kembali dokumen legalisir dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil dokumen legalisir yang sudah jadi di Subbag Akademik dan Kemahasiswaan. Jangan lupa bawa dokumen aslinya saat pengambilan dan tanda tangan di buku pengambilan ya.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal 3 (tiga) hari kerja.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.74 detik*",6876.85,1
+2025-12-06T12:11:17.176821,web-user,Untuk legalisir ijazah dan transkrip gimana caranya,tanya_legalisir,0.9984105825424194,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur legalisir ijazah dan transkrip. 😊
+
+Untuk legalisir ijazah dan transkrip, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Menyerahkan Dokumen:** Kamu perlu menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbag Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas Subbag Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbag Akademik dan Kemahasiswaan akan mengambil kembali berkas legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil hasil legalisir di Subbag Akademik dan Kemahasiswaan dengan membawa dokumen aslinya. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+
+Seluruh proses ini diperkirakan membutuhkan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.59 detik*",7739.22,1
+2025-12-06T12:11:46.208821,web-user,legalisir ijazah dan transkrip,tanya_legalisir,0.9987781643867493,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur legalisir ijazah dan transkrip.
+
+Untuk melakukan legalisir ijazah dan transkrip di Fakultas Sains dan Matematika, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Menyerahkan Berkas:** Kamu (sebagai alumni) perlu menyerahkan fotokopi ijazah, transkrip nilai, atau sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan Petugas:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Dokumen:** Terakhir, kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.38 detik*",6513.47,1
+2025-12-06T12:12:05.040462,web-user,legalisir ijazah gimana sih urusnya,tanya_legalisir,0.9975554943084717,"Halo! 👋 Tentu saja, SIMA-BOT siap bantu menjelaskan prosedur legalisir ijazah. 😊
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi, kamu bisa mengikuti langkah-langkah berikut:
+
+1.  **Serahkan Dokumen:** Kamu bisa menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi beserta dokumen aslinya kepada petugas di Subbag Akademik dan Kemahasiswaan.
+2.  **Verifikasi Dokumen:** Petugas akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Proses Internal:** Selanjutnya, dokumen akan melalui proses pemeriksaan dan paraf oleh Supervisor Akademik dan Kemahasiswaan, serta penandatanganan oleh Dekan/Wakil Dekan Akademik dan Kemahasiswaan.
+4.  **Pemberian Stempel:** Setelah ditandatangani, petugas akan mengambil kembali dokumen legalisir dan memberikan stempel Fakultas Sains dan Matematika.
+5.  **Pengambilan Dokumen:** Kamu bisa mengambil dokumen legalisir yang sudah jadi di Subbag Akademik dan Kemahasiswaan. Jangan lupa membawa dokumen aslinya dan mengisi buku pengambilan serta menandatanganinya ya.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan bertanya. 😊
+
+⏱️ *Waktu respons: 6.31 detik*",8454.18,1
+2025-12-06T12:12:16.985167,web-user,legalisir ijazah gimana sih urusnya,tanya_legalisir,0.9975554943084717,"Halo! 👋 Tentu, saya siap bantu menjelaskan prosedur legalisir ijazah.
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi program studi, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Serahkan Dokumen:** Kamu bisa menyerahkan fotokopi ijazah (atau transkrip nilai/sertifikat akreditasi) beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan. Pastikan kamu membawa berkas pengajuan legalisir ya.
+2.  **Pemeriksaan dan Pengecapan:** Petugas akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen aslinya, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Terakhir, kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen aslinya. Jangan lupa untuk menulis di buku pengambilan dan menandatanganinya ya.
+
+Seluruh proses ini diperkirakan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.21 detik*",6365.61,1
+2025-12-06T12:12:29.065181,web-user,legalisir ijazah gimana sih urusnya,tanya_legalisir,0.9975554943084717,"Halo! 👋 Tentu saja, SIMA-BOT siap membantu menjelaskan bagaimana prosedur legalisir ijazah. 😊
+
+Untuk legalisir ijazah, transkrip nilai, atau sertifikat akreditasi program studi, ada beberapa langkah mudah yang bisa kamu ikuti. Total waktu pemrosesannya maksimal 3 (tiga) hari kerja, ya.
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Serahkan Berkas:** Kamu bisa menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta surat aslinya kepada petugas Subbag Akademik dan Kemahasiswaan. Jangan lupa membawa berkas pengajuan legalisir, ya.
+    *   *Waktu:* Sekitar 5 menit.
+2.  **Pemeriksaan dan Cap:** Petugas Subbag Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan surat aslinya, lalu memberikan cap.
+    *   *Waktu:* Sekitar 10 menit.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+    *   *Waktu:* Sekitar 15 menit.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+    *   *Waktu:* Sekitar 1 hari.
+5.  **Stempel Fakultas:** Petugas Subbag Akademik dan Kemahasiswaan akan mengambil kembali legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+    *   *Waktu:* Sekitar 5 menit.
+6.  **Pengambilan Legalisir:** Terakhir, kamu bisa mengambil legalisir di Subbag Akademik dan Kemahasiswaan dengan membawa dokumen aslinya dan menulis di buku pengambilan, lalu menandatanganinya.
+    *   *Waktu:* Sekitar 15 menit.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya lagi. 😊
+
+⏱️ *Waktu respons: 4.16 detik*",6298.28,1
+2025-12-06T12:12:36.632413,web-user,halo halo,pembuka,0.9996458292007446,Hai! 👋 Saya chatbot layanan akademik FSM. Ada yang bisa kubantu hari ini?,33.68,1
+2025-12-06T12:13:03.897259,web-user,informasi proposal proker,tanya_proposal_organisasi,0.9484972357749939,"Halo! 👋 Tentu saja, saya siap bantu. Kamu mencari informasi mengenai pengajuan proposal program kerja (proker) organisasi mahasiswa, ya?
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah untuk mengajukan proposal kegiatan organisasi mahasiswa:
+
+1.  **Serahkan Proposal:** Kamu bisa menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Ini juga untuk registrasi dan alokasi ruang jika kegiatanmu akan dilaksanakan di FSM.
+2.  **Verifikasi Proposal:** Supervisor Akademik dan Kemahasiswaan akan meneliti serta memverifikasi proposalmu agar sesuai dengan peraturan yang berlaku, lalu memberikan paraf.
+3.  **Evaluasi Substansi:** Selanjutnya, Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi proposal kegiatanmu.
+4.  **Pengesahan:** Setelah dievaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan.
+5.  **Ambil Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan yang sudah disetujui.
+
+Seluruh proses ini diperkirakan memakan waktu maksimal 3 (tiga) hari kerja.
+
+Semoga informasi ini membantu, ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.77 detik*",5930.73,1
+2025-12-06T12:13:23.651968,web-user,pengajuan proposal program kerja (proker) organisasi mahasiswa,tanya_proposal_organisasi,0.9871314764022827,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur pengajuan proposal program kerja (proker) organisasi mahasiswa. 😊
+
+Untuk pengajuan proposal kegiatan organisasi mahasiswa, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Menyerahkan Proposal:** Pertama-tama, kamu perlu menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Ini untuk proses registrasi dan juga alokasi ruang jika kegiatanmu akan dilaksanakan di FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Verifikasi Proposal:** Selanjutnya, Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposalmu agar sesuai dengan peraturan yang berlaku, lalu memberikan paraf.
+3.  **Evaluasi Substansi:** Setelah itu, Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi proposal kegiatanmu.
+4.  **Pengesahan:** Jika sudah dievaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposal.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan organisasi yang telah disetujui.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.76 detik*",5933.31,1
+2025-12-06T12:13:34.542111,web-user,informasi  pengajuan proposal program kerja (proker) organisasi mahasiswa,tanya_proposal_organisasi,0.9791364669799805,"Halo! 👋 Tentu saja, saya siap membantu kamu mencari tahu informasi mengenai pengajuan proposal kegiatan organisasi mahasiswa.
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang bisa kamu ikuti untuk mengajukan proposal kegiatan organisasi mahasiswa:
+
+1.  **Menyerahkan Proposal:** Kamu bisa menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Ini juga untuk proses registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di FSM.
+2.  **Verifikasi Proposal:** Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal yang kamu ajukan agar sesuai dengan peraturan yang berlaku, lalu akan memberikan paraf.
+3.  **Evaluasi Substansi:** Selanjutnya, Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi dari proposal kegiatanmu.
+4.  **Pengesahan:** Setelah evaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposal.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan organisasi yang telah disetujui.
+
+Seluruh proses pengajuan proposal ini memiliki waktu pemrosesan maksimal 3 (tiga) hari kerja, ya.
+
+Semoga informasi ini membantu kamu dalam mempersiapkan kegiatan organisasimu! 😊
+
+⏱️ *Waktu respons: 3.92 detik*",6127.49,1
+2025-12-06T12:14:05.193872,web-user,informasi meminta surat rekomendasi beasiswa,tanya_rekomendasi_beasiswa,0.9934787750244141,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+👉 Mau contoh surat & syarat minimum IPK?
+",2151.13,1
+2025-12-06T12:14:21.287575,web-user,informasi tentang legalisir ijazah,tanya_legalisir,0.994438886642456,"Halo! 👋 Tentu saja, saya siap bantu memberikan informasi mengenai prosedur legalisir ijazah.
+
+Berdasarkan dokumen Standar Operasional Prosedur (SOP) Legalisir Ijazah dan Transkrip, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+**Prosedur Legalisir Ijazah dan Transkrip:**
+
+1.  **Penyerahan Berkas:** Alumni menyerahkan fotokopi ijazah/transkrip nilai/sertifikat akreditasi program studi beserta dokumen aslinya kepada petugas Subbag Akademik dan Kemahasiswaan.
+    *   **Dokumen yang dibutuhkan:** Berkas Pengajuan Legalisir, fotokopi ijazah/transkrip/sertifikat akreditasi, dan dokumen aslinya.
+    *   **Waktu:** Sekitar 5 menit.
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbag Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+    *   **Waktu:** Sekitar 10 menit.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+    *   **Waktu:** Sekitar 15 menit.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+    *   **Waktu:** Sekitar 1 hari.
+5.  **Pemberian Stempel Fakultas:** Petugas Subbag Akademik dan Kemahasiswaan akan mengambil kembali dokumen legalisir yang sudah ditandatangani dan memberikan stempel Fakultas Sains dan Matematika.
+    *   **Waktu:** Sekitar 5 menit.
+6.  **Pengambilan Legalisir:** Alumni dapat mengambil dokumen legalisir di Subbag Akademik dan Kemahasiswaan dengan membawa dokumen aslinya, serta menulis di buku pengambilan dan menandatangani.
+    *   **Waktu:** Sekitar 15 menit.
+
+**Total waktu pemrosesan maksimal untuk legalisir ini adalah 3 (tiga) hari kerja.**
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.88 detik*",7033.91,1
+2025-12-12T08:42:39.348359,web-user,halo,pembuka,0.9999055862426758,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,728.47,1
+2026-01-04T15:02:34.896564,web-user,bagaimana cara mengisi irs?,tanya_irs,0.9964334964752197,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk mengisi Isian Rencana Studi (IRS) berdasarkan prosedur resmi kampus kita. 😊
+
+Untuk mengisi IRS, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Pembayaran Biaya Pendidikan:** Pertama-tama, pastikan kamu sudah membayar biaya pendidikan (SPP/UKT) di bank yang bekerja sama dengan Undip (BNI, Mandiri, BTN, atau BRI). Setelah itu, kamu akan mendapatkan bukti pembayarannya.
+2.  **Her-registrasi Online:** Selanjutnya, lakukan her-registrasi secara online melalui sistem SIAP.
+3.  **Pengisian IRS di SIAP:** Setelah her-registrasi, kamu bisa langsung mengisi, memperbaiki, atau mencetak IRS sementara secara online juga melalui SIAP.
+4.  **Konsultasi dengan Pembimbing Akademik:** Penting sekali untuk menemui Pembimbing Akademikmu. Kamu bisa berkonsultasi mengenai mata kuliah yang akan kamu ambil. Pembimbing Akademik akan memberikan arahan dan memastikan jumlah SKS yang kamu ambil sudah sesuai dengan ketentuan maksimal di semester tersebut.
+5.  **Persetujuan Pembimbing Akademik:** Jika mata kuliah dan jumlah SKS yang kamu pilih sudah sesuai dan disepakati, Pembimbing Akademik akan memberikan persetujuan secara online melalui SIAP.
+6.  **Pengecekan IRS:** Terakhir, kamu bisa melakukan pengecekan IRS online di sistem SIAP kapan pun kamu perlukan untuk memastikan semuanya sudah benar.
+
+Seluruh proses ini diperkirakan membutuhkan waktu pemrosesan maksimal 3 hari kerja.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.14 detik*",7917.19,1
+2026-01-04T15:02:46.494601,web-user,langkah-langkah untuk mengisi Isian Rencana Studi (IRS),tanya_irs,0.9959034323692322,"Pengisian IRS (Isian Rencana Studi):
+1) Bayar UKT (BNI/Mandiri/BTN/BRI)
+2) Her-registrasi online via SIAP
+3) Isi/perbaiki/cetak IRS sementara via SIAP
+4) Konsultasi PA (mata kuliah)
+5) PA menyetujui IRS di SIAP
+6) Cek IRS final di SIAP
+👉 Perlu timeline pembukaan KRS/IRS terbaru?
+",2170.13,1
+2026-01-04T15:02:51.967918,web-user,terimakasih !,terima_kasih,0.9989504218101501,Terima kasih kembali! Butuh info lain?,41.47,1
+2026-01-04T15:29:17.640791,web-user,kalau cara ajuin cuti akademik gimana,tanya_cuti_akademik,0.9946938157081604,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+👉 Perlu link formulir & contoh isian?
+",2197.45,1
+2026-01-04T15:29:40.460736,web-user,nah kalau aku nih mau ngurusin setelah cuti akademik gimana,tanya_izin_aktif_setelah_cuti,0.9282321929931641,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan langkah-langkah untuk mengurus izin aktif setelah kamu selesai cuti akademik. 😊
+
+Berdasarkan dokumen resmi kampus, berikut adalah prosedur yang perlu kamu ikuti untuk bisa aktif kembali setelah cuti:
+
+1.  **Melapor ke Ketua Program Studi dan Subbag Akademik:**
+    *   Kamu perlu membawa surat izin cuti akademik semestermu dan melapor kepada Ketua Program Studimu serta Subbag Akademik dan Kemahasiswaan.
+    *   **Dokumen yang dibutuhkan:** Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+    *   **Perkiraan waktu:** Proses ini biasanya memakan waktu sekitar 5 menit.
+
+2.  **Registrasi Online melalui SSO:**
+    *   Setelah itu, kamu perlu melakukan registrasi secara online melalui SSO (Single Sign On) masing-masing mahasiswa.
+    *   **Perkiraan waktu:** Proses ini juga sekitar 5 menit.
+
+3.  **Status Mahasiswa Aktif:**
+    *   Setelah kedua langkah di atas selesai, kamu akan terdaftar kembali sebagai peserta kuliah atau mahasiswa aktif di Fakultas.
+    *   **Perkiraan waktu:** Proses ini juga sekitar 5 menit.
+
+Semoga informasi ini membantu ya! Jika ada hal lain yang ingin kamu tanyakan, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.83 detik*",8023.22,1
+2026-01-04T15:29:57.519618,web-user,iya bener maksudnya mengurus izin aktif !,tanya_izin_aktif_setelah_cuti,0.9011601805686951,"Baik, kalau begitu, untuk mengurus izin aktif setelah cuti, kamu bisa mengikuti langkah-langkah berikut ya:
+
+1.  **Melapor ke Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:**
+    *   Kamu perlu membawa surat izin cuti akademik semester yang sudah kamu miliki.
+    *   Sampaikan laporan ini kepada Ketua Program Studimu dan juga ke Subbag Akademik dan Kemahasiswaan.
+    *   Waktu yang dibutuhkan sekitar 5 menit.
+    *   Dokumen yang perlu kamu siapkan adalah Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+
+2.  **Melakukan Registrasi Online:**
+    *   Setelah melapor, kamu perlu melakukan registrasi secara online melalui SSO (Single Sign-On) masing-masing mahasiswa.
+    *   Proses ini juga diperkirakan memakan waktu sekitar 5 menit.
+
+3.  **Status Mahasiswa Aktif:**
+    *   Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai Peserta Kuliah atau Mahasiswa Aktif di Fakultas.
+    *   Proses ini biasanya membutuhkan waktu sekitar 5 menit hingga statusmu diperbarui.
+
+Semoga informasinya membantu ya! Jika ada hal lain yang ingin ditanyakan, jangan sungkan. 😊
+
+⏱️ *Waktu respons: 3.38 detik*",5559.66,1
+2026-01-04T15:30:10.663741,web-user,langkah2 mengurus izin aktif,tanya_izin_aktif_setelah_cuti,0.990807831287384,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2153.28,1
+2026-01-04T15:31:47.138480,web-user,dokumen untuk izin aktif kuliah setelah cuti,tanya_izin_aktif_setelah_cuti,0.9965129494667053,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2152.25,1
+2026-01-13T09:55:49.794306,web-user,Gimana caranya dapat surat rekomendasi beasiswa?,tanya_rekomendasi_beasiswa,0.9940730929374695,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+👉 Mau contoh surat & syarat minimum IPK?
+",3461.80,1
+2026-01-13T09:57:02.955183,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Halo! 👋 Tentu saja, saya siap bantu.
+
+Untuk langkah-langkah permohonan izin aktif kembali setelah cuti, kamu bisa mengikuti prosedur berikut ini ya:
+
+1.  **Melapor kepada Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:** Kamu perlu membawa surat izin cuti akademik semester kamu dan melapor kepada Ketua Program Studimu serta Subbag Akademik dan Kemahasiswaan.
+    *   **Dokumen yang dibutuhkan:** Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+2.  **Registrasi Online:** Setelah itu, kamu bisa melakukan registrasi online melalui SSO (Single Sign-On) masing-masing mahasiswa.
+3.  **Terdaftar sebagai Mahasiswa Aktif:** Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai peserta kuliah atau mahasiswa aktif di Fakultas.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.50 detik*",6873.31,1
+2026-01-13T09:58:01.841632,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Halo! 👋 Tentu saja, saya siap bantu.
+
+Untuk langkah-langkah permohonan izin aktif kembali setelah cuti, kamu bisa mengikuti prosedur berikut ini:
+
+1.  **Melapor kepada Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:** Kamu perlu membawa surat izin cuti akademik semester yang sebelumnya sudah kamu dapatkan, lalu melapor kepada Ketua Program Studimu dan juga ke Subbagian Akademik dan Kemahasiswaan.
+    *   **Waktu:** Proses ini diperkirakan memakan waktu sekitar 5 menit.
+    *   **Dokumen yang dibutuhkan:** Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+2.  **Registrasi Online:** Setelah itu, kamu bisa melakukan registrasi secara online melalui SSO (Single Sign-On) masing-masing mahasiswa.
+    *   **Waktu:** Proses ini diperkirakan memakan waktu sekitar 5 menit.
+3.  **Terdaftar sebagai Mahasiswa Aktif:** Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai Peserta Kuliah atau Mahasiswa Aktif di Fakultas.
+    *   **Waktu:** Proses ini diperkirakan memakan waktu sekitar 5 menit.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.66 detik*",5973.07,1
+2026-01-13T09:58:29.261906,web-user,izin aktif setelah cuti bagaimana sih?,tanya_izin_aktif_setelah_cuti,0.9989196062088013,"Halo! 👋 Tentu, SIMA-BOT siap bantu menjelaskan prosedur untuk izin aktif setelah cuti. 😊
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti untuk bisa aktif kembali setelah cuti:
+
+1.  **Melapor ke Ketua Program Studi dan Subbag Akademik:**
+    *   Kamu perlu membawa surat izin cuti akademik semester yang sudah kamu miliki.
+    *   Laporkan diri kepada Ketua Program Studimu dan juga ke Subbag Akademik dan Kemahasiswaan.
+    *   Dokumen yang dibutuhkan: Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+    *   Estimasi waktu: Sekitar 5 menit.
+
+2.  **Registrasi Online di SSO:**
+    *   Setelah melapor, kamu perlu melakukan registrasi secara online melalui SSO (Single Sign On) masing-masing mahasiswa.
+    *   Estimasi waktu: Sekitar 5 menit.
+
+3.  **Terdaftar sebagai Mahasiswa Aktif:**
+    *   Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai Peserta Kuliah atau Mahasiswa Aktif di Fakultas.
+    *   Estimasi waktu: Sekitar 5 menit.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.73 detik*",6064.61,1
+2026-01-13T09:58:57.504309,web-user,Bagaimana cara untuk melegalisir ijazah?,tanya_legalisir,0.9982895255088806,"Halo! 👋 Tentu saja, saya siap bantu menjelaskan bagaimana cara melegalisir ijazah kamu. 😊
+
+Berdasarkan Standar Operasional Prosedur (SOP) yang ada, berikut adalah langkah-langkah untuk melegalisir ijazah kamu:
+
+1.  **Serahkan Dokumen:** Kamu sebagai alumni perlu menyerahkan fotokopi ijazah (atau transkrip nilai/sertifikat akreditasi program studi) beserta dokumen aslinya kepada petugas Subbagian Akademik dan Kemahasiswaan.
+2.  **Pemeriksaan dan Pengecapan:** Petugas Subbagian Akademik dan Kemahasiswaan akan memeriksa keabsahan dan kesesuaian fotokopi dengan dokumen asli, lalu memberikan cap.
+3.  **Paraf Supervisor:** Supervisor Akademik dan Kemahasiswaan akan memeriksa dan memberikan paraf di samping kanan nama Dekan.
+4.  **Tanda Tangan Dekan/Wakil Dekan:** Dekan atau Wakil Dekan Akademik dan Kemahasiswaan akan menandatangani pada bagian ""Pengesahan Telah diperiksa Kebenarannya dan Sesuai dengan Aslinya"".
+5.  **Pemberian Stempel:** Petugas Subbagian Akademik dan Kemahasiswaan akan mengambil kembali dokumen yang sudah ditandatangani Dekan/Wakil Dekan dan memberikan stempel Fakultas Sains dan Matematika.
+6.  **Pengambilan Legalisir:** Kamu bisa mengambil dokumen legalisir di Subbagian Akademik dan Kemahasiswaan dengan membawa dokumen asli, serta menulis di buku pengambilan dan menandatanganinya.
+
+Untuk seluruh proses ini, waktu pemrosesan maksimal adalah **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 4.50 detik*",6821.47,1
+2026-01-13T09:59:39.931030,web-user,Prosedur mengajukan izin aktif setelah cuti akademik bagaimana ?,tanya_izin_aktif_setelah_cuti,0.9959860444068909,"Halo! 👋 Tentu, saya akan bantu jelaskan prosedur untuk mengajukan izin aktif setelah cuti akademik.
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Melapor kepada Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:** Kamu perlu membawa surat izin cuti akademik semester yang sebelumnya kamu miliki, lalu melapor kepada Ketua Program Studimu dan juga Subbagian Akademik dan Kemahasiswaan.
+    *   **Waktu yang dibutuhkan:** Sekitar 5 menit.
+    *   **Dokumen yang perlu disiapkan:** Surat Izin Cuti dan fotokopi Kartu Tanda Mahasiswa (KTM).
+2.  **Melakukan registrasi online:** Setelah itu, kamu bisa melakukan registrasi secara online melalui SSO (Single Sign On) masing-masing mahasiswa.
+    *   **Waktu yang dibutuhkan:** Sekitar 5 menit.
+3.  **Terdaftar sebagai mahasiswa aktif:** Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai peserta kuliah atau mahasiswa aktif di Fakultas.
+    *   **Waktu yang dibutuhkan:** Sekitar 5 menit.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.53 detik*",5867.69,1
+2026-01-13T10:00:26.033820,web-user,aku mau mengajukan  Izin Aktif Kuliah Setelah Cuti bagaimana caranya ?,tanya_izin_aktif_setelah_cuti,0.9953404664993286,"Halo! 👋 Tentu saja, saya siap bantu. Untuk mengajukan izin aktif kuliah setelah cuti, ada beberapa langkah mudah yang bisa kamu ikuti:
+
+1.  **Melapor ke Ketua Program Studi dan Subbag Akademik:**
+    *   Kamu perlu membawa surat izin cuti akademik semester yang sebelumnya sudah kamu dapatkan.
+    *   Laporkan diri kepada Ketua Program Studimu dan juga ke Subbag Akademik dan Kemahasiswaan.
+    *   Dokumen yang dibutuhkan: Surat Izin Cuti dan Fotokopi Kartu Tanda Mahasiswa (KTM).
+    *   Proses ini diperkirakan memakan waktu sekitar 5 menit.
+
+2.  **Registrasi Online melalui SSO:**
+    *   Setelah melapor, kamu bisa langsung melakukan registrasi secara online melalui SSO (Single Sign-On) masing-masing mahasiswa.
+    *   Proses ini juga diperkirakan memakan waktu sekitar 5 menit.
+
+3.  **Status Mahasiswa Aktif:**
+    *   Setelah langkah-langkah di atas selesai, kamu akan terdaftar kembali sebagai peserta kuliah atau mahasiswa aktif di Fakultas.
+    *   Proses ini diperkirakan memakan waktu sekitar 5 menit.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 8.02 detik*",10366.66,1
+2026-01-13T10:24:18.168929,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk izin aktif kembali setelah cuti akademik. 😊
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Melapor kepada Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:** Kamu perlu membawa surat izin cuti akademik semester yang sebelumnya sudah kamu dapatkan, lalu melapor kepada Ketua Program Studimu dan juga Subbagian Akademik dan Kemahasiswaan. Jangan lupa siapkan fotokopi Kartu Tanda Mahasiswa (KTM) juga ya. Proses ini biasanya memakan waktu sekitar 5 menit.
+2.  **Registrasi Online melalui SSO:** Setelah itu, kamu perlu melakukan registrasi secara online melalui SSO (Single Sign On) masing-masing mahasiswa. Ini juga diperkirakan memakan waktu sekitar 5 menit.
+3.  **Terdaftar sebagai Mahasiswa Aktif:** Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai peserta kuliah atau mahasiswa aktif di Fakultas. Proses ini juga diperkirakan memakan waktu sekitar 5 menit.
+
+Semoga informasi ini membantu kamu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.93 detik*",7460.61,1
+2026-01-13T10:25:02.909649,web-user,izin aktif kembali setelah cuti akademik,tanya_izin_aktif_setelah_cuti,0.9976834058761597,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2287.64,1
+2026-01-13T10:25:12.085524,web-user,langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9985466599464417,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",2286.96,1
+2026-01-13T10:26:09.102089,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk izin aktif kembali setelah cuti akademik.
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Melapor kepada Ketua Program Studi dan Subbag Akademik dan Kemahasiswaan:** Kamu perlu membawa surat izin cuti akademik semestermu dan melapor kepada Ketua Program Studimu serta Subbag Akademik dan Kemahasiswaan. Jangan lupa siapkan fotokopi Kartu Tanda Mahasiswa (KTM) juga ya. Proses ini biasanya memakan waktu sekitar 5 menit.
+2.  **Melakukan Registrasi Online:** Setelah itu, kamu perlu melakukan registrasi secara online melalui SSO (Single Sign-On) masing-masing mahasiswa. Ini juga diperkirakan memakan waktu sekitar 5 menit.
+3.  **Terdaftar sebagai Mahasiswa Aktif:** Setelah semua langkah di atas selesai, kamu akan terdaftar kembali sebagai Peserta Kuliah atau Mahasiswa Aktif di Fakultas. Proses ini juga diperkirakan memakan waktu sekitar 5 menit.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 3.29 detik*",5612.32,1
+2026-01-13T10:32:56.688691,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",7305.69,1
+2026-01-13T10:33:40.692397,web-user,Bagaimana cara untuk melegalisir ijazah?,tanya_legalisir,0.9982895255088806,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+👉 Perlu jadwal layanan & biaya?
+",11670.18,1
+2026-01-13T10:42:43.650317,web-user,Bagaimana langkah-langkah untuk izin aktif kembali setelah cuti?,tanya_izin_aktif_setelah_cuti,0.9988462924957275,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",6722.53,1
+2026-01-13T10:43:13.588916,web-user,Bagaimana cara untuk melegalisir ijazah?,tanya_legalisir,0.9982895255088806,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+👉 Perlu jadwal layanan & biaya?
+",7788.25,1
+2026-01-13T10:44:25.865572,web-user,Gimana caranya dapat surat rekomendasi beasiswa?,tanya_rekomendasi_beasiswa,0.9940730929374695,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+👉 Mau contoh surat & syarat minimum IPK?
+",2335.65,1
+2026-01-13T10:47:22.557646,web-user,Bagaimana cara untuk melegalisir ijazah?,tanya_legalisir,0.9982895255088806,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+👉 Perlu jadwal layanan & biaya?
+",7473.62,1
+2026-01-13T14:57:11.852839,web-user,cara mnta izin aktif abis cuti gmn y?,tanya_izin_aktif_setelah_cuti,0.9625608325004578,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",6976.35,1
+2026-01-13T14:57:30.333039,web-user,cara mnta izin aktif abis cuti gmn y?,tanya_izin_aktif_setelah_cuti,0.9625608325004578,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",5516.29,1
+2026-01-13T14:58:11.586345,web-user,tews,pembuka,0.9882898330688477,Halo! Silakan tanya seputar layanan akademik yang kamu butuhkan.,38.41,1
+2026-01-13T14:58:21.969541,web-user,cara mnta izin aktif abis cuti gmn y?,tanya_izin_aktif_setelah_cuti,0.9625608325004578,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",7128.37,1
+2026-01-13T15:00:58.223763,web-user,cara mnta izin aktif abis cuti gmn y,tanya_izin_aktif_setelah_cuti,0.9625608325004578,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+👉 Mau cek dokumen apa saja yang perlu dibawa?
+",9110.39,1
+2026-01-16T11:26:24.364319,web-user,Bagaimana cara untuk melegalisir ijazah?,tanya_legalisir,0.9982895255088806,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+",8047.03,1
+2026-01-16T11:34:20.785466,web-user,Gimana caranya dapat surat rekomendasi beasiswa?,tanya_rekomendasi_beasiswa,0.9940730929374695,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+",2294.65,1
+2026-01-16T11:40:57.555290,web-user,punya kontak akademik?,tanya_kontak,0.9858577251434326,"Kontak Layanan Akademik FSM:
+• Subbag Akademik & Kemahasiswaan
+• Telp: (024) 747 4754
+• Email: akademikfsm@live.undip.ac.id
+Jam layanan: Senin–Jumat 08.00–16.00 WIB
+",2901.95,1
+2026-01-16T11:42:04.769161,web-user,cara mnta izin aktif abis cuti gmn y,tanya_izin_aktif_setelah_cuti,0.9625608325004578,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+",5322.19,1
+2026-01-16T11:42:44.987145,web-user,kl maw legalisir ijazah gimana,tanya_legalisir,0.9985094666481018,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+",7363.91,1
+2026-01-16T11:43:11.687679,web-user,kl maw leglisir ijzh gmn,tanya_legalisir,0.9900057911872864,"Legalisir Ijazah/Transkrip (maks. 3 hari kerja):
+1) Serahkan fotokopi + asli ke Subbag Akademik
+2) Petugas cek keabsahan & cap
+3) Supervisor paraf
+4) Dekan/Wadek tanda tangan
+5) Stempel fakultas
+6) Ambil legalisir (bawa asli & tanda tangan buku)
+",7458.51,1
+2026-01-16T11:43:59.424245,web-user,ak mau izin aktif lg stlh cuti gmn y caranya,tanya_izin_aktif_setelah_cuti,0.9787318706512451,"Izin Aktif Kuliah Setelah Cuti:
+1) Bawa surat izin cuti ke Kaprodi & Subbag Akademik
+2) Registrasi online (SSO)
+3) Status aktif sebagai Peserta Kuliah
+",5964.85,1
+2026-01-16T11:54:56.037813,web-user,kontak akademik nya ada?,tanya_kontak,0.9830678105354309,"Kontak Layanan Akademik FSM:
+• Subbag Akademik & Kemahasiswaan
+• Telp: (024) 747 4754
+• Email: akademikfsm@live.undip.ac.id
+Jam layanan: Senin–Jumat 08.00–16.00 WIB
+",2941.24,1
+2026-02-24T21:21:18.539591,web-user,prosedur cuti,tanya_cuti_akademik,0.9983137845993042,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",1082.70,1
+2026-02-24T22:58:44.371137,web-user,bagaimana caranya melakukan cuti akademik,tanya_cuti_akademik,0.9969207048416138,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",2266.73,1
+2026-02-24T23:01:28.718898,web-user,"Saya ingin izin terlambat bayar UKT, apa syarat dan formulirnya?"",""saya ingin izin terlambat bayar ukt, apa syarat dan formulirnya?",tanya_izin_terlambat_bayar_ukt,0.9867588877677917,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+",262.84,1
+2026-02-26T07:23:54.363487,web-user,bagaimana caranya mengurus beasiswa,tanya_rekomendasi_beasiswa,0.9953643083572388,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+",1381.72,1
+2026-02-26T07:40:37.263958,web-user,bagaimana caranya melakukan pembayaran ukt?,tanya_izin_terlambat_bayar_ukt,0.9850784540176392,"Izin Terlambat Bayar UKT (maks. 3 hari kerja):
+1) Isi & tanda tangani Form Permohonan (lampiran lengkap)
+2) TTD Dosen Wali + persetujuan Kaprodi
+3) Serahkan ke Supervisor SDM (verifikasi & paraf)
+4) Proses oleh Wadek SDM; ditandatangani
+5) Subbag SDM memproses surat
+6) Bawa ke WR II → disposisi ke Direktorat Keuangan
+7) Bendahara membuat kanal pembayaran
+8) Lakukan pembayaran UKT
+",253.31,1
+2026-02-26T07:43:15.032206,web-user,bagaimana caranya melakukan cuti akademik,tanya_cuti_akademik,0.9969207048416138,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",137.33,1
+2026-02-26T07:43:55.813327,web-user,jelaskan prosedur pengajuan surat rekomendasi,tanya_rekomendasi_beasiswa,0.9719632863998413,"Rekomendasi Beasiswa (±3 hari 45 menit):
+1) Isi formulir rekomendasi → ke Subbag Akademik
+2) BAK teliti & verifikasi
+3) BAK beri paraf & nomor surat
+4) Wadek tanda tangan
+5) Ambil surat di BAK (dicatat bukti pengambilan)
+",186.37,1
+2026-02-26T07:45:15.491116,web-user,berikan sop izin cuti akademik,tanya_cuti_akademik,0.9925884008407593,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",149.54,1
+2026-02-26T07:52:48.830138,web-user,berikan sop izin cuti akademik,tanya_cuti_akademik,0.9925884008407593,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",194.23,1
+2026-02-26T07:54:39.454801,web-user,izin cuti akademik,tanya_cuti_akademik,0.9899055361747742,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",166.55,1
+2026-02-26T07:56:45.570964,web-user,bagaimana sop cuti akademik,tanya_cuti_akademik,0.9984845519065857,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",259.44,1
+2026-02-26T08:03:49.092058,web-user,"saya terlambat membayar ukt, bagaimana",tanya_izin_terlambat_bayar_ukt,0.9864550828933716,"Halo! 👋 Jangan khawatir, SIMA-BOT siap bantu. Untuk permohonan izin keterlambatan pembayaran UKT, ada beberapa langkah yang perlu kamu ikuti. Prosesnya maksimal 3 hari kerja, ya.
+
+Berikut adalah langkah-langkahnya:
+
+1.  **Unduh dan Isi Formulir:** Kamu perlu mengunduh, mengisi, dan menandatangani Form Permohonan Keterlambatan Pembayaran UKT. Jangan lupa lampirkan juga persyaratan yang dibutuhkan.
+    *   Link unduh form: [https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/](https://drive.google.com/file/d/1o7hogihjZsFTB_V27JU1OfNGBuI2Sr55/)
+2.  **Minta Tanda Tangan:** Setelah form terisi, mintalah tanda tangan dosen walimu serta persetujuan dan tanda tangan Ketua Program Studimu.
+3.  **Serahkan ke Supervisor Sumber Daya:** Serahkan Form Permohonan Keterlambatan UKT yang sudah lengkap dan ditandatangani tersebut kepada Supervisor Sumber Daya.
+4.  **Pemeriksaan Dokumen:** Supervisor Sumber Daya akan menerima, memeriksa, dan meneliti kelengkapan persyaratan formmu, lalu memberikan paraf.
+5.  **Pemrosesan Surat:** Wakil Dekan Sumber Daya akan memproses Surat Permohonan Izin Keterlambatan Pembayaran UKT.
+6.  **Penandatanganan Surat:** Wakil Dekan Sumber Daya akan menandatangani Surat Permohonan Izin Keterlambatan Pembayaran UKT.
+7.  **Pemrosesan Lanjutan:** Subbag Sumber Daya akan memproses Surat Permohonan Keterlambatan Pembayaran UKT.
+8.  **Sampaikan ke Wakil Rektor II:** Kamu perlu membawa Surat Permohonan Keterlambatan Pembayaran UKT tersebut kepada Wakil Rektor II melalui Manajer Akademik.
+9.  **Disposisi ke Direktorat Keuangan:** Wakil Rektor II akan mendisposisikan suratmu ke Direktorat Keuangan untuk memproses pembayaran UKT.
+10. **Pembukaan Sistem Pembayaran:** Bendahara Penerimaan UKT akan membuka sistem pembayaran untukmu.
+11. **Lakukan Pembayaran:** Terakhir, kamu bisa membayar biaya UKT ke bank.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.09 detik*",6993.11,1
+2026-02-26T08:05:17.298527,web-user,izin cuti kuliah,tanya_cuti_akademik,0.9978340268135071,"Halo! Tentu, saya akan bantu jelaskan prosedur untuk permohonan izin cuti akademik. 😊
+
+Berdasarkan dokumen resmi kampus, berikut adalah langkah-langkah yang perlu kamu ikuti untuk mengajukan izin cuti akademik. Proses ini membutuhkan waktu maksimal 3 (tiga) hari kerja.
+
+**Langkah-langkah Permohonan Izin Cuti Akademik:**
+
+1.  **Unduh dan Isi Formulir:** Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa untuk melampirkan persyaratan yang dibutuhkan. Selain itu, kamu juga wajib mengisi permohonan secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:** Form Cuti Akademik, Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi Kartu Tanda Mahasiswa (KTM), dan dokumen pendukung lain.
+    *   **Link unduh form:** [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nantinya, form ini akan didisposisikan ke Subbag Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan oleh Subbag Akademik:** Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratan form cuti akademikmu. Jika semua sudah lengkap, form akan diberi paraf dan diproses lebih lanjut.
+5.  **Penandatanganan Surat Izin Dekan:** Dekan akan menandatangani Surat Izin Dekan.
+6.  **Pemberian Nomor Surat:** Subbag Sumber Daya akan memberi nomor surat dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+7.  **Update Status dan Pengiriman Surat:** Subbag Akademik dan Kemahasiswaan akan mengupdate statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+8.  **Pengambilan Surat Izin:** Kamu dapat mengambil Surat Izin Dekan di loket akademik.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.11 detik*",6258.56,1
+2026-02-26T08:05:45.673182,web-user,bagaimana caranya melakukan izin cuti kuliah,tanya_cuti_akademik,0.9945541620254517,"Halo! 👋 Tentu saja, saya akan bantu jelaskan bagaimana cara mengajukan izin cuti akademik. Prosesnya cukup mudah kok, mari kita ikuti langkah-langkahnya:
+
+Untuk mengajukan izin cuti akademik, kamu bisa mengikuti prosedur berikut:
+
+1.  **Siapkan Dokumen dan Isi Form:**
+    *   Pertama, kamu perlu mengunduh dan mengisi Form Cuti Akademik. Kamu bisa mengunduhnya di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+    *   Jangan lupa untuk melampirkan beberapa dokumen penting, yaitu: Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi Kartu Tanda Mahasiswa (KTM), dan dokumen pendukung lain jika ada.
+    *   Selain mengisi form fisik, kamu juga wajib mengisi permohonan secara online melalui sistem SIAP.
+
+2.  **Minta Persetujuan Ketua Program Studi:**
+    *   Setelah form terisi lengkap dan dokumen siap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+
+3.  **Serahkan Form ke Dekan:**
+    *   Selanjutnya, serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nanti akan ada proses disposisi ke Subbag Akademik dan Kemahasiswaan.
+
+4.  **Verifikasi Dokumen oleh Subbag Akademik:**
+    *   Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratan form cutimu. Jika semuanya lengkap, form akan diberi paraf dan diproses lebih lanjut.
+
+5.  **Penandatanganan Surat Izin Dekan:**
+    *   Dekan akan menandatangani Surat Izin Dekan sebagai persetujuan cutimu.
+
+6.  **Pemberian Nomor Surat dan Pengiriman:**
+    *   Subbag Sumber Daya akan memberi nomor pada surat izinmu dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+
+7.  **Update Status dan Pengiriman ke Mahasiswa:**
+    *   Subbag Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+
+8.  **Ambil Surat Izin Dekan:**
+    *   Terakhir, kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Seluruh proses ini diperkirakan akan memakan waktu maksimal 3 (tiga) hari kerja.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan sungkan untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.73 detik*",5904.37,1
+2026-02-26T08:09:45.000628,web-user,bagaimana sop cuti akademik,tanya_cuti_akademik,0.9984845519065857,"Halo! 👋 Tentu saja, saya akan bantu jelaskan mengenai Standar Operasional Prosedur (SOP) untuk permohonan izin cuti akademik.
+
+Untuk mengajukan izin cuti akademik, prosesnya maksimal 3 hari kerja. Berikut adalah langkah-langkah yang perlu kamu ikuti:
+
+1.  **Mengisi Formulir dan Persyaratan:**
+    *   Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa untuk melampirkan semua persyaratan yang dibutuhkan.
+    *   Selain itu, kamu juga wajib mengisi permohonan ini secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:** Form Cuti Akademik, Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi KTM, dan dokumen pendukung lain.
+    *   Kamu bisa mengunduh Form Cuti Akademik di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+
+2.  **Meminta Persetujuan Ketua Program Studi:**
+    *   Setelah form terisi lengkap, kamu harus meminta persetujuan dan tanda tangan dari Ketua Program Studimu.
+
+3.  **Menyerahkan ke Dekan:**
+    *   Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi kemudian kamu serahkan ke Dekan. Nantinya, akan ada disposisi ke Subbag Akademik dan Kemahasiswaan.
+
+4.  **Pemeriksaan oleh Subbag Akademik dan Kemahasiswaan:**
+    *   Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratanmu. Jika semua sudah lengkap, form akan diberi paraf dan diproses lebih lanjut.
+
+5.  **Penandatanganan Surat Izin Dekan:**
+    *   Dekan akan menandatangani Surat Izin Dekan.
+
+6.  **Pemberian Nomor Surat:**
+    *   Subbag Sumber Daya akan memberi nomor pada surat izin tersebut dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+
+7.  **Pembaruan Status dan Pengiriman Surat:**
+    *   Subbag Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+
+8.  **Pengambilan Surat Izin:**
+    *   Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Semoga penjelasan ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.47 detik*",6648.50,1
+2026-02-26T08:15:31.760764,web-user,bagaimana caranya melakukan izin cuti kuliah,tanya_cuti_akademik,0.9945541620254517,"Halo! 👋 Tentu saja, saya akan bantu jelaskan langkah-langkah untuk mengajukan izin cuti akademik ya. Prosesnya cukup mudah kok, dan perkiraan waktu pemrosesannya maksimal 3 hari kerja.
+
+Berikut adalah langkah-langkah yang bisa kamu ikuti:
+
+1.  **Unduh dan Isi Formulir:** Pertama, kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa lampirkan juga dokumen-dokumen yang dibutuhkan seperti Transkrip Akademik, Bukti bayar SPP/UKT terakhir, Fotokopi KTM, dan dokumen pendukung lainnya. Selain itu, kamu juga wajib mengisi secara online melalui SIAP.
+    *   Kamu bisa mengunduh formulirnya di sini: [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, mintalah persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan ke Dekan:** Selanjutnya, serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nanti akan ada proses disposisi ke Subbagian Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan Dokumen:** Subbagian Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratanmu. Kalau sudah lengkap, formulir akan diparaf dan diproses lebih lanjut.
+5.  **Penandatanganan Surat Izin:** Dekan akan menandatangani Surat Izin Dekan.
+6.  **Pemberian Nomor Surat:** Subbagian Sumber Daya akan memberikan nomor surat dan mengirimkannya ke Subbagian Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+7.  **Update Status Mahasiswa:** Subbagian Akademik dan Kemahasiswaan akan memperbarui status mahasiswamu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+8.  **Ambil Surat Izin:** Terakhir, kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Semoga informasinya membantu ya! Kalau ada pertanyaan lain, jangan sungkan bertanya. 😊
+
+⏱️ *Waktu respons: 10.24 detik*",11671.51,1
+2026-02-26T08:32:28.186250,web-user,bagaimana caranya melakukan cuti akademik,tanya_cuti_akademik,0.9969207048416138,"Halo! 👋 Tentu, saya siap bantu menjelaskan langkah-langkah untuk mengajukan cuti akademik.
+
+Berdasarkan Standar Operasional Prosedur (SOP) Permohonan Izin Cuti Akademik, proses ini memiliki estimasi waktu pemrosesan maksimal **3 (tiga) hari kerja**.
+
+Berikut adalah langkah-langkah yang perlu kamu ikuti secara lengkap:
+
+1.  **Unduh dan Isi Formulir:** Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik. Jangan lupa untuk melampirkan semua persyaratan yang dibutuhkan. Selain itu, kamu juga wajib mengisi permohonan ini secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:**
+        *   Form Cuti Akademik
+        *   Transkrip Akademik
+        *   Bukti bayar SPP/UKT terakhir
+        *   Fotokopi Kartu Tanda Mahasiswa (KTM)
+        *   Dokumen pendukung lain (jika ada)
+    *   **Link unduh form:** [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+2.  **Minta Persetujuan Ketua Program Studi:** Setelah formulir terisi lengkap, kamu perlu meminta persetujuan dan tanda tangan dari Ketua Program Studimu.
+3.  **Serahkan Formulir ke Dekan:** Serahkan Form Cuti Akademik yang sudah ditandatangani Ketua Program Studi ke Dekan. Nantinya, formulir ini akan didisposisikan ke Subbagian Akademik dan Kemahasiswaan.
+4.  **Pemeriksaan oleh Subbag Akademik dan Kemahasiswaan:** Subbagian Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratan pada formulir cuti akademikmu. Jika semua dokumen lengkap, formulir akan diberi paraf dan diproses lebih lanjut.
+5.  **Penandatanganan Surat Izin oleh Dekan:** Dekan akan menandatangani Surat Izin Dekan.
+6.  **Pemberian Nomor Surat:** Subbagian Sumber Daya akan memberikan nomor surat dan mengirimkannya ke Subbagian Akademik dan Kemahasiswaan, dengan tembusan ke Dosen Wali dan Ketua Program Studi.
+7.  **Update Status Mahasiswa:** Subbagian Akademik dan Kemahasiswaan akan memperbarui statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkan surat tersebut kepadamu.
+8.  **Pengambilan Surat Izin:** Kamu bisa mengambil Surat Izin Dekan di loket akademik.
+
+Semoga langkah-langkah ini jelas dan membantumu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 7.33 detik*",8358.57,1
+2026-02-26T08:40:05.951960,web-user,bagaimana caranya melakukan pembayaran ukt,tanya_izin_terlambat_bayar_ukt,0.9850784540176392,"Halo! Tentu, saya akan bantu jelaskan bagaimana cara melakukan pembayaran UKT berdasarkan dokumen yang ada ya. 😊
+
+Berdasarkan Standar Operasional Prosedur (SOP) Pengisian Isian Rencana Studi (IRS), langkah pertama yang perlu kamu lakukan untuk pembayaran biaya pendidikan (termasuk UKT) adalah:
+
+1.  **Melakukan pembayaran biaya pendidikan pada bank yang bekerja sama dengan Universitas Diponegoro.**
+    *   Bank-bank yang bekerja sama antara lain: **BNI, Mandiri, BTN, dan BRI.**
+    *   Estimasi waktu untuk proses pembayaran ini adalah **sekitar 10 menit.**
+    *   Output dari langkah ini adalah **Bukti Pembayaran SPP/UKT.**
+
+Setelah pembayaran, kamu bisa melanjutkan ke proses her-registrasi online dan pengisian IRS.
+
+Mohon diperhatikan bahwa detail teknis mengenai nomor rekening atau prosedur spesifik di masing-masing bank (seperti melalui teller, ATM, atau mobile banking) tidak dijelaskan secara rinci dalam dokumen ini. Namun, kamu bisa menanyakan lebih lanjut di bank-bank yang disebutkan saat akan melakukan pembayaran ya.
+
+Semoga informasi ini membantu! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.84 detik*",7011.82,1
+2026-02-26T08:46:40.287310,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"Halo! Tentu, saya siap bantu. Untuk pengajuan proposal kegiatan organisasi mahasiswa (Ormawa), ada prosedur yang perlu kamu ikuti. Proses ini dirancang agar proposalmu bisa diproses dengan baik dan sesuai ketentuan.
+
+Berikut adalah langkah-langkah pengajuan proposal kegiatan Ormawa:
+
+1.  **Menyerahkan Proposal:** Kamu bisa menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Penyerahan ini juga berfungsi untuk registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di lingkungan FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+
+2.  **Verifikasi Proposal:** Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal yang kamu ajukan untuk memastikan kesesuaian dengan peraturan yang berlaku. Setelah itu, mereka akan memberikan paraf.
+    *   **Output:** Proposal dengan paraf Supervisor Akademik dan Kemahasiswaan.
+
+3.  **Evaluasi Substansi:** Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi dari proposal kegiatanmu.
+    *   **Output:** Proposal dengan persetujuan Wakil Dekan Akademik dan Kemahasiswaan.
+
+4.  **Pengesahan Proposal:** Setelah evaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposal.
+
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan yang telah disetujui.
+    *   **Output:** Proposal kegiatan organisasi yang telah disetujui.
+
+**Estimasi Waktu Proses (SLA):**
+Seluruh proses pengajuan proposal kegiatan organisasi mahasiswa ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.66 detik*",6196.28,1
+2026-02-26T08:52:02.796911,web-user,izin cutis akademik,tanya_cuti_akademik,0.9569569230079651,"Halo! 👋 Tentu, saya akan bantu menjelaskan prosedur permohonan izin cuti akademik berdasarkan dokumen resmi kampus.
+
+Untuk mengajukan izin cuti akademik, ada beberapa langkah yang perlu kamu ikuti. Proses ini memiliki estimasi waktu maksimal 3 (tiga) hari kerja.
+
+Berikut adalah langkah-langkahnya secara lengkap:
+
+1.  **Mengisi dan Menandatangani Form Cuti Akademik:**
+    *   Kamu perlu mengunduh, mengisi, dan menandatangani Form Cuti Akademik.
+    *   Jangan lupa untuk melampirkan persyaratan yang dibutuhkan.
+    *   Selain itu, kamu juga wajib mengisi permohonan ini secara online melalui SIAP.
+    *   **Dokumen yang dibutuhkan:**
+        *   Form Cuti Akademik
+        *   Transkrip Akademik
+        *   Bukti bayar SPP/UKT terakhir
+        *   Fotokopi KTM (Kartu Tanda Mahasiswa)
+        *   Dokumen pendukung lain (jika ada)
+    *   **Link unduh Form Cuti Akademik:** [https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit](https://drive.google.com/file/d/1miPHNvRj6XO6LEhFCiC_QXcMtynCPWR2/edit)
+
+2.  **Meminta Persetujuan Ketua Program Studi:**
+    *   Setelah form terisi lengkap, kamu perlu meminta persetujuan dan tanda tangan dari Ketua Program Studimu.
+
+3.  **Menyerahkan Form ke Dekan:**
+    *   Serahkan Form Cuti Akademik yang sudah ditandatangani oleh Ketua Program Studi ke Dekan.
+    *   Nantinya, form tersebut akan didisposisikan ke Subbag Akademik dan Kemahasiswaan.
+
+4.  **Pemeriksaan oleh Subbag Akademik dan Kemahasiswaan:**
+    *   Subbag Akademik dan Kemahasiswaan akan menerima, memeriksa, dan meneliti kelengkapan persyaratan pada form cuti akademikmu.
+    *   Jika semua persyaratan sudah lengkap, form akan diberi paraf dan diproses lebih lanjut.
+
+5.  **Penandatanganan Surat Izin oleh Dekan:**
+    *   Dekan akan menandatangani Surat Izin Dekan.
+
+6.  **Pemberian Nomor Surat dan Pengiriman:**
+    *   Subbag Sumber Daya akan memberi nomor pada surat izin tersebut dan mengirimkannya ke Subbag Akademik dan Kemahasiswaan.
+    *   Tembusan surat juga akan dikirimkan ke Dosen Wali dan Ketua Program Studi.
+
+7.  **Update Status dan Pengarsipan:**
+    *   Subbag Akademik dan Kemahasiswaan akan mengupdate statusmu di Sistem Akademik, mengarsipkan Surat Izin Dekan, dan mengirimkannya kepadamu.
+
+8.  **Pengambilan Surat Izin Dekan:**
+    *   Kamu dapat mengambil Surat Izin Dekan di loket akademik.
+
+**Output akhir dari proses ini adalah Surat Izin Dekan.**
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.15 detik*",6639.32,1
+2026-02-26T08:59:19.159843,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"Halo! 👋 Tentu, saya akan bantu jelaskan prosedur pengajuan proposal kegiatan organisasi mahasiswa (Ormawa) di Fakultas Sains dan Matematika. 😊
+
+Untuk mengajukan proposal kegiatan Ormawa, kamu bisa mengikuti langkah-langkah berikut ini:
+
+1.  **Menyerahkan Proposal:** Pertama, kamu perlu menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Penyerahan ini juga untuk registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Penelitian dan Verifikasi:** Selanjutnya, Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal yang kamu ajukan untuk memastikan sudah sesuai dengan peraturan yang berlaku. Setelah itu, mereka akan memberikan paraf.
+    *   **Hasil:** Proposal dengan paraf Supervisor Akademik dan Kemahasiswaan.
+3.  **Evaluasi Substansi:** Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi atau isi dari proposal kegiatanmu.
+    *   **Hasil:** Persetujuan dari Wakil Dekan Akademik dan Kemahasiswaan.
+4.  **Pengesahan:** Setelah dievaluasi, proposal akan disahkan oleh Wakil Dekan Akademik dan Kemahasiswaan.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan yang telah disetujui.
+    *   **Hasil:** Proposal kegiatan organisasi yang telah disetujui.
+
+**Estimasi Waktu Proses:**
+Seluruh proses pengajuan proposal ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 7.06 detik*",9755.75,1
+2026-02-26T09:22:14.615787,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"📚 **[RAG RESPONSE]**
+
+Halo! 👋 Tentu saja, saya siap bantu. Untuk pengajuan proposal kegiatan organisasi mahasiswa (Ormawa), ada beberapa langkah yang perlu kamu ikuti. Proses ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Berikut adalah langkah-langkah lengkapnya:
+
+1.  **Menyerahkan Proposal:** Kamu perlu menyerahkan proposal kegiatan organisasimu ke petugas kemahasiswaan dan Supervisor Akademik. Penyerahan ini juga untuk registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di lingkungan FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Verifikasi Proposal:** Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal yang kamu ajukan untuk memastikan sudah sesuai dengan peraturan yang berlaku. Setelah itu, mereka akan memberikan paraf.
+    *   **Output:** Paraf Supervisor Akademik dan Kemahasiswaan.
+3.  **Evaluasi Substansi:** Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi dari proposal kegiatanmu.
+    *   **Output:** Persetujuan Wakil Dekan Akademik dan Kemahasiswaan.
+4.  **Pengesahan:** Setelah dievaluasi, proposal akan melalui tahap pengesahan oleh Wakil Dekan Akademik dan Kemahasiswaan.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatanmu yang telah disetujui.
+    *   **Output:** Proposal kegiatan organisasi yang telah disetujui.
+
+Semoga informasinya membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.25 detik*",6126.07,1
+2026-03-23T16:09:19.223165,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"📚 **[JAWABAN RAG]**
+
+Halo! 👋 Tentu saja, saya siap bantu menjelaskan prosedur pengajuan proposal kegiatan organisasi mahasiswa (Ormawa) di Fakultas Sains dan Matematika.
+
+Untuk mengajukan proposal kegiatan Ormawa, kamu bisa mengikuti langkah-langkah berikut ini. Estimasi waktu pemrosesan maksimalnya adalah **3 (tiga) hari kerja**, ya.
+
+**Langkah-langkah Pengajuan Proposal Kegiatan Organisasi Mahasiswa:**
+
+1.  **Menyerahkan Proposal:** Kamu perlu menyerahkan proposal kegiatan organisasimu ke petugas kemahasiswaan dan Supervisor Akademik. Penyerahan ini juga untuk registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Verifikasi Proposal:** Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal yang kamu ajukan untuk memastikan sudah sesuai dengan peraturan yang berlaku, lalu akan memberikan paraf.
+3.  **Evaluasi Substansi:** Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi dari proposal kegiatanmu.
+4.  **Pengesahan:** Setelah evaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposal.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal yang telah disetujui.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 5.47 detik*",6417.12,1
+2026-03-23T16:24:22.212826,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"Halo! 👋 Tentu, saya siap bantu menjelaskan prosedur pengajuan proposal kegiatan organisasi mahasiswa (Ormawa) di Fakultas Sains dan Matematika.
+
+Untuk mengajukan proposal kegiatan Ormawa, kamu bisa mengikuti langkah-langkah berikut ini:
+
+**Prosedur Pengajuan Proposal Kegiatan Organisasi Mahasiswa:**
+
+1.  **Menyerahkan Proposal:** Pertama, kamu perlu menyerahkan proposal kegiatan organisasimu kepada petugas kemahasiswaan dan Supervisor Akademik. Penyerahan ini bertujuan untuk registrasi dan alokasi ruang, terutama jika kegiatanmu akan dilaksanakan di lingkungan FSM.
+    *   **Dokumen yang dibutuhkan:** Proposal kegiatan organisasi.
+2.  **Verifikasi Proposal:** Setelah diserahkan, Supervisor Akademik dan Kemahasiswaan akan meneliti dan memverifikasi proposal kegiatan yang kamu ajukan. Mereka akan memastikan proposalmu sudah sesuai dengan peraturan yang berlaku dan kemudian akan memberikan paraf sebagai tanda verifikasi.
+    *   **Output:** Proposal dengan paraf Supervisor Akademik dan Kemahasiswaan.
+3.  **Evaluasi Substansi:** Selanjutnya, Wakil Dekan Akademik dan Kemahasiswaan akan mengevaluasi substansi dari proposal kegiatanmu.
+    *   **Output:** Persetujuan Wakil Dekan Akademik dan Kemahasiswaan.
+4.  **Pengesahan:** Setelah dievaluasi, Wakil Dekan Akademik dan Kemahasiswaan akan melakukan pengesahan proposalmu.
+5.  **Pengambilan Proposal:** Terakhir, kamu bisa mengambil proposal kegiatan yang telah disetujui.
+    *   **Output:** Proposal kegiatan organisasi yang telah disetujui.
+
+**Estimasi Waktu Proses:**
+Seluruh proses pengajuan proposal ini diperkirakan akan memakan waktu maksimal **3 (tiga) hari kerja**.
+
+Semoga informasi ini membantu ya! Jika ada pertanyaan lain, jangan ragu untuk bertanya. 😊
+
+⏱️ *Waktu respons: 6.12 detik*",7004.15,1
+2026-03-23T16:39:52.709337,web-user,pengajuan proposal ormawa,tanya_proposal_organisasi,0.9886293411254883,"Pengajuan Proposal Ormawa (maks. 3 hari kerja):
+1) Serahkan proposal ke petugas kemahasiswaan & Supervisor (registrasi/ruang)
+2) Supervisor verifikasi & paraf
+3) Wadek evaluasi substansi
+4) Pengesahan Wadek
+5) Ambil proposal yang disetujui
+",784.64,1
+2026-04-06T18:39:49.563433,web-user,Cara pengajuan cuti akademik?,tanya_cuti_akademik,0.9823018312454224,"Prosedur Cuti Akademik (maks. 3 hari kerja):
+1) Unduh, isi, & tanda tangani Form Cuti + unggah via SIAP
+2) Persetujuan Ketua Prodi
+3) Disposisi Dekan → Subbag Akademik
+4) Subbag cek kelengkapan & proses
+5) Tanda tangan Dekan
+6) Penomoran oleh Subbag SDM
+7) Ambil Surat Izin Dekan di loket akademik
+",1490.68,1
+2026-04-06T18:45:18.920957,web-user,halo,pembuka,0.9988625049591064,Hai! 👋 Saya chatbot layanan akademik FSM. Ada yang bisa kubantu hari ini?,75.56,1
